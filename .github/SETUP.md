@@ -10,7 +10,7 @@
 
 ## Στατιστικά
 - Λήψεις PDF: GitHub Releases (αριθμός λήψεων ανά αρχείο, `gh release view --json assets`).
-- Επισκέψεις σελίδων και κλικ σε αρχεία (pdf/zip): GoatCounter, `https://ceid-notes.goatcounter.com`. Ανώνυμο, χωρίς cookies.
+- Επισκέψεις σελίδων και κλικ σε αρχεία (pdf/zip): GoatCounter, `https://kdngiorgos.goatcounter.com`. Ανώνυμο, χωρίς cookies.
 - Zenodo: προβολές και λήψεις στη σελίδα της εγγραφής.
 
 ## Ρυθμίσεις που έγιναν

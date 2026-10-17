@@ -3,7 +3,7 @@
   var s = document.createElement("script");
   s.async = true;
   s.src = "https://gc.zgo.at/count.js";
-  s.setAttribute("data-goatcounter", "https://ceid-notes.goatcounter.com/count");
+  s.setAttribute("data-goatcounter", "https://kdngiorgos.goatcounter.com/count");
   document.head.appendChild(s);
   document.addEventListener("click", function (e) {
     var a = e.target.closest && e.target.closest("a[href]");
