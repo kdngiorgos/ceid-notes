@@ -1,6 +1,7 @@
 site_name: CEID Notes
 site_url: https://kdngiorgos.github.io/ceid-notes/
 repo_url: https://github.com/kdngiorgos/ceid-notes
+repo_name: kdngiorgos/ceid-notes
 site_description: Κοινόχρηστο αρχείο γνώσης για τα μαθήματα του Τμήματος Μηχανικών Η/Υ & Πληροφορικής (Πανεπιστήμιο Πατρών)
 docs_dir: docs
 site_dir: site
@@ -9,20 +10,29 @@ theme:
   name: material
   language: el
   font: false
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.indexes
     - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - toc.follow
     - search.highlight
     - search.suggest
     - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Σκούρο θέμα
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Φωτεινό θέμα
@@ -41,6 +51,14 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences
+extra_css:
+  - stylesheets/extra.css
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kdngiorgos/ceid-notes
+      name: GitHub
 extra_javascript:
   - javascripts/mathjax.js
   - javascripts/greek-search.js

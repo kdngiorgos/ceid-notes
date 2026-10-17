@@ -1,0 +1,128 @@
+/* Light-touch theme polish on top of Material for MkDocs: one blue accent, a light header, system fonts,
+   softer corners. Content and structure are untouched. */
+
+:root {
+  --md-text-font: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  --md-code-font: ui-monospace, "Cascadia Code", "JetBrains Mono", "SF Mono", Consolas, "Liberation Mono", monospace;
+  --ceid-radius: 0.5rem;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #2563eb;
+  --md-primary-fg-color--light: #3b82f6;
+  --md-primary-fg-color--dark: #1d4ed8;
+  --md-accent-fg-color: #1d4ed8;
+  --md-typeset-a-color: #2563eb;
+  --ceid-border: #e5e7eb;
+  --ceid-surface: #f8fafc;
+  --md-footer-bg-color: #f8fafc;
+  --md-footer-bg-color--dark: #f1f5f9;
+  --md-footer-fg-color: #1f2937;
+  --md-footer-fg-color--light: #4b5563;
+  --md-footer-fg-color--lighter: #6b7280;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #60a5fa;
+  --md-primary-fg-color--light: #93c5fd;
+  --md-primary-fg-color--dark: #3b82f6;
+  --md-accent-fg-color: #93c5fd;
+  --md-typeset-a-color: #60a5fa;
+  --ceid-border: #2b2f3a;
+  --ceid-surface: #1b1e27;
+  --md-footer-bg-color: #161821;
+  --md-footer-bg-color--dark: #12141b;
+  --md-footer-fg-color: #e5e7eb;
+  --md-footer-fg-color--light: #9ca3af;
+  --md-footer-fg-color--lighter: #6b7280;
+}
+
+/* Header: page-coloured with a hairline instead of a solid blue bar */
+.md-header {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: none;
+  border-bottom: 1px solid var(--ceid-border);
+}
+.md-header--shadow { box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06); }
+.md-header__topic:first-child { font-weight: 700; letter-spacing: -0.01em; }
+.md-header__button.md-logo img, .md-header__button.md-logo svg { height: 1.4rem; }
+
+@media screen and (min-width: 60em) {
+  .md-search__form {
+    background-color: var(--ceid-surface);
+    border: 1px solid var(--ceid-border);
+    border-radius: var(--ceid-radius);
+  }
+  .md-search__form:hover { background-color: var(--ceid-surface); border-color: var(--md-default-fg-color--lighter); }
+  .md-search__input, .md-search__input::placeholder,
+  .md-search__input + .md-search__icon { color: var(--md-default-fg-color--light); }
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__form { border-radius: var(--ceid-radius) var(--ceid-radius) 0 0; }
+}
+
+/* Headings: stronger, tighter */
+.md-typeset h1 { font-weight: 700; color: var(--md-default-fg-color); letter-spacing: -0.02em; }
+.md-typeset h2 { font-weight: 650; letter-spacing: -0.01em; }
+.md-typeset h3 { font-weight: 600; }
+
+/* Links: underline on hover only */
+.md-typeset a:hover { text-decoration: underline; text-underline-offset: 0.15em; }
+
+/* Buttons (semester shortcuts on the home page) */
+.md-typeset .md-button {
+  border-width: 1px;
+  border-radius: var(--ceid-radius);
+  padding: 0.45em 1.1em;
+  margin: 0 0.3em 0.5em 0;
+  font-weight: 600;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.md-typeset .md-button:hover { text-decoration: none; }
+
+/* Course cards */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--ceid-border);
+  border-radius: 0.65rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > .card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+.md-typeset .grid.cards > ul > li > hr { margin: 0.6em 0; border-color: var(--ceid-border); }
+
+/* Callouts: rounded, flat */
+.md-typeset .admonition, .md-typeset details {
+  border-radius: var(--ceid-radius);
+  border-width: 1px;
+  border-left-width: 0.25rem;
+  box-shadow: none;
+  font-size: 0.75rem;
+}
+.md-typeset .admonition-title, .md-typeset summary { font-weight: 600; }
+
+/* Tables: rounded frame, light header row */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--ceid-border);
+  border-radius: var(--ceid-radius);
+  overflow: hidden;
+  box-shadow: none;
+  font-size: 0.72rem;
+}
+.md-typeset table:not([class]) td a[href$=".pdf"] { white-space: nowrap; }
+.md-typeset table:not([class]) th { background-color: var(--ceid-surface); font-weight: 600; }
+.md-typeset table:not([class]) tr:hover { background-color: var(--ceid-surface); box-shadow: none; }
+
+/* Code */
+.md-typeset code { border-radius: 0.3rem; }
+.md-typeset pre > code { border-radius: var(--ceid-radius); }
+
+/* Sidebar: a little more breathing room, bolder section labels */
+.md-nav__item--section > .md-nav__link, .md-nav--primary > .md-nav__title { font-weight: 700; }
+.md-nav__link { margin-top: 0.5em; }
+
+/* Footer */
+.md-footer { border-top: 1px solid var(--ceid-border); }
+.md-footer__link:hover { opacity: 1; color: var(--md-typeset-a-color); }
