@@ -12,7 +12,7 @@
 | Διακριτά Μαθηματικά | 1ο εξάμηνο | 32 | [PDF (210 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_22Y101.pdf) |
 | Λογική Σχεδίαση | 2ο εξάμηνο | 31 | [PDF (3193 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y107.pdf) |
 | Αντικειμενοστρεφής Προγραμματισμός | 2ο εξάμηνο | 44 | [PDF (266 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y106.pdf) |
-| Εισαγωγή στους Αλγόριθμους | 3ο εξάμηνο | 25 | [PDF (2674 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y205.pdf) |
+| Εισαγωγή στους Αλγόριθμους | 3ο εξάμηνο | 25 | [PDF (2675 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y205.pdf) |
 | Θεωρία Γραφημάτων και Εφαρμογές | 3ο εξάμηνο | 39 | [PDF (1174 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y202.pdf) |
 | Πιθανότητες και Αρχές Στατιστικής | 3ο εξάμηνο | 48 | [PDF (289 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y204.pdf) |
 | Αριθμητική Ανάλυση και Περιβάλλοντα Υλοποίησης | 4ο εξάμηνο | 38 | [PDF (253 KB)](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y209.pdf) |
