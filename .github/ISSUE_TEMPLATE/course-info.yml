@@ -1,0 +1,35 @@
+name: "Πληροφορίες μαθήματος"
+description: "Βαθμολόγηση, εργασίες, συμβουλές μελέτης ή αλλαγές στο μάθημα."
+title: "[Μάθημα] "
+labels: ["info"]
+body:
+  - type: input
+    id: course
+    attributes:
+      label: Μάθημα
+      placeholder: "π.χ. Λειτουργικά Συστήματα (CEID_24Y330)"
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Ακαδημαϊκό έτος που αφορά
+      placeholder: "π.χ. 2025-26"
+  - type: textarea
+    id: info
+    attributes:
+      label: Τι θες να προσθέσεις ή να αλλάξεις;
+      description: "Ποσοστά βαθμολόγησης, εργασίες/εργαστήρια, δυσκολίες, χρήσιμο υλικό."
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Όνομα για credit (προαιρετικό)
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Συναίνεση
+      options:
+        - label: "Δεν περιέχω ονόματα, ΑΜ ή τηλέφωνα και δεν επικολλώ διαφάνειες καθηγητών."
+          required: true

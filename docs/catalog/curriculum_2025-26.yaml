@@ -1,0 +1,1995 @@
+# Κατάλογος Μαθημάτων 2025-2026 (επίσημο PDF) ως δεδομένα.
+# Προέλευση: catalog/katalogos_mathimatwn_2025_2026_new.pdf (9 σελίδες). Υπόμνημα και συμβάσεις: catalog/README.md.
+# Μην αλλάζετε τιμές χωρίς έλεγχο στο PDF.
+source: katalogos_mathimatwn_2025_2026_new.pdf
+academic_year: 2025-26
+legend: {Δ: "ώρες διάλεξης", Φ: "ώρες φροντιστηρίου", Ε: "ώρες εργαστηρίου", sector: "Τομέας αρμοδιότητας"}
+courses:
+  - code: CEID_22Y101
+    code_official: CEID_22Y101
+    title: Διακριτά Μαθηματικά
+    type: core
+    semester: 1
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 0}
+    dm: 6
+    ects: 7
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Κ. Τσίχλας", "Ε. Παπαϊωάννου"]
+    notes: null
+    formerly: []
+  - code: CEID_22Y102
+    code_official: CEID_22Y102
+    title: Γραμμική Άλγεβρα
+    type: core
+    semester: 1
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 1}
+    dm: 6
+    ects: 7
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Ε. Γαλλόπουλος", "Ε. Στεφανόπουλος", "Ε. Κοντοπούλου (Μεταδιδάκτορας-Ερευνήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_22Y103
+    code_official: CEID_22Υ103
+    title: Εισαγωγή στον Προγραμματισμό
+    type: core
+    semester: 1
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 2}
+    dm: 8
+    ects: 9
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Χρ. Μακρής", "Σπ. Σιούτας", "Α. Ηλίας (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_22Y104
+    code_official: CEID_22Υ104
+    title: Βασικές Αρχές Οργάνωσης και Λειτουργίας Υπολογιστικών Συστημάτων
+    type: core
+    semester: 1
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 0}
+    dm: 6
+    ects: 7
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χ. Βέργος"]
+    notes: null
+    formerly: []
+  - code: CEID_22Y105
+    code_official: CEID_22Y105
+    title: Γενικά Μαθηματικά Ι
+    type: core
+    semester: 2
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 1}
+    dm: 6
+    ects: 7
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Α. Ανδρικόπουλος"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y106
+    code_official: CEID_23Y106
+    title: Αντικειμενοστρεφής Προγραμματισμός
+    type: core
+    semester: 2
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 2}
+    dm: 8
+    ects: 9
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Π. Χατζηδούκας", "Α. Κομνηνός", "Ι. Περίκος (Εντεταλμένος Διδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y107
+    code_official: CEID_23Y107
+    title: Λογική Σχεδίαση
+    type: core
+    semester: 2
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 0}
+    dm: 6
+    ects: 7
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χρ. Παπαδημητροπουλος (Εντεταλμένος Διδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_22Y108
+    code_official: CEID_22Υ108
+    title: Ηλεκτρικά Κυκλώματα
+    type: core
+    semester: 2
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 6
+    ects: 7
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χρ. Χρηστίδης", "Θ. Χρυσικός (Εντεταλμένος Διδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y201
+    code_official: CEID_23Υ201
+    title: Γενικά Μαθηματικά ΙΙ
+    type: core
+    semester: 3
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 1}
+    dm: 5
+    ects: 6
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Α. Ανδρικόπουλος"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y202
+    code_official: CEID_23Y202
+    title: Θεωρία Γραφημάτων και Εφαρμογές
+    type: core
+    semester: 3
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 1}
+    dm: 5
+    ects: 6
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Κοσμαδάκης"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y203
+    code_official: CEID_23Υ203
+    title: Αρχιτεκτονική Υπολογιστών
+    type: core
+    semester: 3
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 0}
+    dm: 3
+    ects: 4
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Γ. Παπαδημητρίου"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y204
+    code_official: CEID_23Υ204
+    title: Πιθανότητες και Αρχές Στατιστικής
+    type: core
+    semester: 3
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 0}
+    dm: 5
+    ects: 6
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Νικολετσέας"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y205
+    code_official: CEID_23Υ205
+    title: Εισαγωγή στους Αλγόριθμους
+    type: core
+    semester: 3
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Ζαρολιάγκης", "Στ. Αθανασόπουλος (ΕΔΙΠ)", "Ι. Βασιλόπουλος (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y211
+    code_official: CEID_23Υ211
+    title: Εργαστήριο Λογικού Σχεδιασμού
+    type: lab
+    semester: 3
+    season: null
+    hours: {theory: 0, tutorial: 0, lab: 3}
+    dm: 1
+    ects: 2
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Μ.-Ε. Δούναβη (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y206
+    code_official: CEID_23Υ206
+    title: Αρχές Γλωσσών Προγραμματισμού και Μεταφραστών
+    type: core
+    semester: 4
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Ι. Γαροφαλάκης", "Σπ. Σιούτας", "Π. Χατζηδούκας", "Ι. Βασιλόπουλος (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y207
+    code_official: CEID_23Υ207
+    title: Θεωρία Σημάτων και Συστημάτων
+    type: core
+    semester: 4
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 0}
+    dm: 5
+    ects: 6
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Εμμ. Ψαράκης"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y208
+    code_official: CEID_23Υ208
+    title: Αναλογικά και Ψηφιακά Ηλεκτρονικά
+    type: core
+    semester: 4
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 0}
+    dm: 3
+    ects: 4
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Ε. Δερματάς"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y209
+    code_official: CEID_23Y209
+    title: Αριθμητική Ανάλυση και Περιβάλλοντα Υλοποίησης
+    type: core
+    semester: 4
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΛΥ/ΕΘ
+    taught_by: null
+    instructors: ["Ε. Κοντοπούλου (Μεταδιδάκτορας-Ερευνήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y210
+    code_official: CEID_23Υ210
+    title: Δομές Δεδομένων
+    type: core
+    semester: 4
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Χρ. Μακρής", "Σπ. Σιούτας"]
+    notes: null
+    formerly: []
+  - code: CEID_23Y212
+    code_official: CEID_23Y212
+    title: Εργαστήριο Αρχιτεκτονικής Υπολογιστών
+    type: lab
+    semester: 4
+    season: null
+    hours: {theory: 0, tutorial: 0, lab: 3}
+    dm: 1
+    ects: 2
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Γ. Παπαδημητρίου", "Β. Παπαϊωάννου (ΕΔΙΠ)", "Χρ. Παπαδημητροπουλος (Εντεταλμένος Διδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y303
+    code_official: CEID_24Υ303
+    title: Εργαστήριο Αναλογικών & Ψηφιακών Ηλεκτρονικών
+    type: lab
+    semester: 5
+    season: null
+    hours: {theory: 0, tutorial: 0, lab: 3}
+    dm: 1
+    ects: 2
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Γ-Π Οικονόμου (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y330
+    code_official: CEID_24Υ330
+    title: Λειτουργικά Συστήματα
+    type: core
+    semester: 5
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Χρ. Μακρής", "Σπ. Σιούτας", "Π. Χατζηδούκας", "Α. Ηλίας (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y334
+    code_official: CEID_24Υ334
+    title: Βάσεις Δεδομένων
+    type: core
+    semester: 5
+    season: null
+    hours: {theory: 2, tutorial: 1, lab: 3}
+    dm: 5
+    ects: 6
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Β. Μεγαλοοικονόμου", "Ε. Βογιατζάκη (ΕΔΙΠ)", "Ι. Βασιλόπουλος (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y351
+    code_official: CEID_24Υ351
+    title: Τεχνητή Νοημοσύνη
+    type: core
+    semester: 5
+    season: null
+    hours: {theory: 3, tutorial: 2, lab: 1}
+    dm: 5
+    ects: 6
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Β. Μεγαλοοικονόμου", "Δ. Κοσμόπουλος", "Δ. Κουτσομητρόπουλος (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y361
+    code_official: CEID_24Υ361
+    title: Συστήματα Μικροϋπολογιστών
+    type: core
+    semester: 5
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 0}
+    dm: 4
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Ν. Σκλάβος"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y381
+    code_official: CEID_24Υ381
+    title: Ψηφιακή Επεξεργασία Σημάτων
+    type: core
+    semester: 5
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 4
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Εμμ. Ψαράκης", "Δ. Κοσμόπουλος"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y387
+    code_official: CEID_24Υ387
+    title: Δίκτυα Υπολογιστών
+    type: core
+    semester: 6
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Κ. Βλάχος"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y302
+    code_official: CEID_24Υ302
+    title: Βασικές Έννοιες Συστημάτων Επικοινωνίας
+    type: core
+    semester: 6
+    season: null
+    hours: {theory: 3, tutorial: 1, lab: 1}
+    dm: 5
+    ects: 6
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Κ. Μπερμπερίδης"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y332
+    code_official: CEID_24Υ332
+    title: Τεχνολογία Λογισμικού
+    type: core
+    semester: 6
+    season: null
+    hours: {theory: 2, tutorial: 2, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Μ. Ξένος", "Α. Ηλίας (ΕΔΙΠ)", "Ι. Βασιλόπουλος (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y338
+    code_official: CEID_24Υ338
+    title: Προγραμματισμός και Συστήματα στον Παγκόσμιο Ιστό
+    type: core
+    semester: 6
+    season: null
+    hours: {theory: 2, tutorial: 2, lab: 2}
+    dm: 5
+    ects: 6
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Ι. Γαροφαλάκης", "Α. Κομνηνός", "Ε. Βογιατζάκην (ΕΔΙΠ)", "Τζ. Μπεσαρατ (Εντεταλμένος Διδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_24Y301
+    code_official: CEID_24Υ301
+    title: Θεωρία Υπολογισμού και Πολυπλοκότητα
+    type: core
+    semester: 6
+    season: null
+    hours: {theory: 3, tutorial: 3, lab: 0}
+    dm: 5
+    ects: 6
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Κακλαμάνης", "Ε. Παπαϊωάννου"]
+    notes: null
+    formerly: []
+  - code: CEID_25Y401
+    code_official: CEID_25Y401
+    title: Προγραμματισμός Συστημάτων
+    type: core
+    semester: 7
+    season: null
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: 4
+    ects: 5
+    sector: ΥΑ/ΛΥ
+    taught_by: null
+    instructors: ["Γ. Παπαδημητρίου", "Π. Χατζηδούκας", "Β. Παπαϊωάννου (ΕΔΙΠ)"]
+    notes: νέο μάθημα
+    formerly: []
+  - code: CEID_24EE597
+    code_official: CEID_24EE597
+    title: Συγγραφή και παρουσίαση τεχνικών κειμένων
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: ΜΕΤΑΦΟΡΑ από εαρινό εξάμηνο · Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_25EX598
+    code_official: CEID_25ΕΧ598
+    title: Αλληλεπιδραση ανθρώπου-υπολογιστή
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Μ. Ξένος", "Α. Κομνηνός", "Ε Βογιατζάκη (ΕΔΙΠ)"]
+    notes: νέο μάθημα
+    formerly: []
+  - code: CEID_25EX600
+    code_official: CEID_25ΕΧ600
+    title: Προχωρημένα Θέματα Ψηφιακών Τηλεπικοινωνιών
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_25EX601
+    code_official: CEID_25ΕΧ601
+    title: Επιστημονικός Υπολογισμός
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_25EX602
+    code_official: CEID_25ΕΧ602
+    title: Προηγμένα Θέματα Προγραμματισμού
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_25EX603
+    code_official: CEID_25ΕΧ603
+    title: Προγραμματισμός Συστημάτων Μηχανικής Μάθησης
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: νέο μάθημα · Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_25EX604
+    code_official: CEID_25ΕΧ604
+    title: Προχωρημένα Θέματα Δικτύων
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 0, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE1411
+    code_official: CEID_NE1411
+    title: Τεχνολογίες και αλγόριθμοι αποκεντρωμένων δεδομένων
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Σπ. Σιούτας", "Α. Κομνηνός", "Ι. Βασιλόπουλος (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_NE320
+    code_official: CEID_NE320
+    title: Συστήματα Μετάδοσης Πληροφορίας
+    type: elective
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: null
+    sector: ΥΑ
+    taught_by: null
+    instructors: []
+    notes: ΚΑΤΑΡΓΕΙΤΑΙ
+    formerly: []
+  - code: CEID_NE4117
+    code_official: CEID_NE4117
+    title: Κατανεμημένα Συστήματα
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Κοντογιάννης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4128
+    code_official: CEID_NE4128
+    title: Παράλληλοι Αλγόριθμοι
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Κακλαμάνης", "Ε. Παπαϊωάννου"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4157
+    code_official: CEID_NE4157
+    title: Δίκτυα Δημόσιας Χρήσης και Διασύνδεση Δικτύων
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Ε. Παπαϊωάννου"]
+    notes: "δεύτερος διδάσκων: αναγράφεται μόνο «Εντεταλμένος Διδάσκων» (χωρίς όνομα)"
+    formerly: []
+  - code: CEID_NE471
+    code_official: CEID_NE471
+    title: Όραση Υπολογιστών & Γραφικά
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Εμμ. Ψαράκης"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Θέματα Όρασης Υπολογιστών
+    formerly: ["Θέματα Όρασης Υπολογιστών"]
+  - code: CEID_NE4847
+    code_official: CEID_NE4847
+    title: Στατιστική Επεξεργασία Σήματος και Θέματα Μηχανικής Μάθησης
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Μ. Τρίγκα (Εντεταλμένος Διδάσκων)"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Στατιστική Επεξεργασία Σήματος και Μάθηση
+    formerly: ["Στατιστική Επεξεργασία Σήματος και Μάθηση"]
+  - code: CEID_NE489
+    code_official: CEID_NE489
+    title: Ευφυείς Τεχνολογίες Ασύρματων και Κινητών Επικοινωνιών
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Κ. Μπερμπερίδης"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Ασύρματες και Κινητές Επικοινωνίες · ΜΕΤΑΦΟΡΑ από εαρινό εξάμηνο
+    formerly: ["Ασύρματες και Κινητές Επικοινωνίες"]
+  - code: CEID_NE5057
+    code_official: CEID_NE5057
+    title: Αλγόριθμοι και Συνδυαστική Βελτιστοποίηση
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Ζαρολιάγκης", "Σ. Κοντογιάννης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE555
+    code_official: CEID_NE555
+    title: Εφαρμοσμένα Μαθηματικά
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 3, tutorial: 2, lab: 0}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE565
+    code_official: CEID_NE565
+    title: Ανάπτυξη βιντεοπαιγνιδιών
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Κ. Τσιχλας"]
+    notes: null
+    formerly: []
+  - code: CEID_NE574
+    code_official: CEID_NE574
+    title: Οπτικά Δίκτυα Επικοινωνιών
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Κ. Βλάχος"]
+    notes: null
+    formerly: []
+  - code: CEID_NE575
+    code_official: CEID_NE575
+    title: Υλοποιήσεις και Εφαρμογές Ασφάλειας Δικτύων
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 0, lab: 3}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Δ. Σερπάνος", "Κ. Βλάχος"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Σύγχρονες Εφαρμογές Ασφάλειας Δικτύων
+    formerly: ["Σύγχρονες Εφαρμογές Ασφάλειας Δικτύων"]
+  - code: CEID_NE590
+    code_official: CEID_NE590
+    title: Κυβερνοασφάλεια
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Ν. Σκλάβος"]
+    notes: null
+    formerly: []
+  - code: CEID_NE592
+    code_official: CEID_NE592
+    title: Βασικές Αρχές Δικτύων Κινητών Επικοινωνιών
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 3, tutorial: 0, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χ. Βερυκούκης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE594
+    code_official: CEID_NE594
+    title: Αρθρωτά Κβαντικά Συστήματα
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 4, tutorial: 1, lab: 0}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χρ. Χρηστίδης"]
+    notes: null
+    formerly: []
+  - code: CEID_E9OE
+    code_official: CEID_Ε9OE
+    title: Εισαγωγή στα Οικονομικά
+    type: elective
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: Τμήμα Οικονομικών Επιστημών
+    instructors: ["Ν. Χατζησταμούλου"]
+    notes: "Ανώτατος αριθμός δηλώσεων: 35 φοιτητές"
+    formerly: []
+  - code: CEID_ERA1
+    code_official: CEID_ΕRA1
+    title: Μάθημα Erasmus
+    type: other
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: null
+    instructors: ["Α. Κομνηνός"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4338
+    code_official: CEID_ΝΕ4338
+    title: Πολυδιάστατες Δομές Δεδομένων
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Σπ. Σιούτας", "Κ. Τσίχλας"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4357
+    code_official: CEID_ΝΕ4357
+    title: Εφαρμοσμένα Πληροφοριακά Συστήματα Ι
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE444
+    code_official: CEID_ΝΕ444
+    title: Αναπαράσταση Γνώσης στον Παγκόσμιο Ιστό
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE4547
+    code_official: CEID_ΝΕ4547
+    title: Τεχνικές εκτίμησης υπολογιστικών συστημάτων και δικτύων
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Ι. Γαροφαλάκης"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Τεχνικές Εκτίμησης Υπολογιστικών Συστημάτων
+    formerly: ["Τεχνικές Εκτίμησης Υπολογιστικών Συστημάτων"]
+  - code: CEID_NE4648
+    code_official: CEID_ΝΕ4648
+    title: Εισαγωγή σε VLSI
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 3, tutorial: 0, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Γ. Παπαδημητρίου"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5017
+    code_official: CEID_ΝΕ5017
+    title: Πιθανοτικές Τεχνικές και Τυχαιοκρατικοί Αλγόριθμοι
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Νικολετσέας"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5038
+    code_official: CEID_ΝΕ5038
+    title: Σημασιολογία στην Επιστήμη των Υπολογιστών
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 3, lab: 0}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Κοσμαδάκης", "Χρ. Κακλαμάνης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5127
+    code_official: CEID_ΝΕ5127
+    title: Αλγόριθμοι Επικοινωνιών
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Κακλαμάνης", "Ε. Παπαϊωάννου", "Ν. Καρανικόλας (Μεταδιδάκτορας - Ερευνητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5237
+    code_official: CEID_ΝΕ5237
+    title: Στατιστικές Μέθοδοι Μηχανικής Μάθησης
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Δ. Κοσμόπουλος", "Σ. Νικολετσέας"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Θεωρία Αποφάσεων
+    formerly: ["Θεωρία Αποφάσεων"]
+  - code: CEID_NE5367
+    code_official: CEID_ΝΕ5367
+    title: Προηγμένα Πληροφοριακά Συστήματα
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Μ. Ξένος", "Α. Ηλίας (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5407
+    code_official: CEID_ΝΕ5407
+    title: Λογισμικό & Προγραμματισμός Συστημάτων Υψηλής Επίδοσης
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Π. Χατζηδούκας"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5577
+    code_official: CEID_ΝΕ5577
+    title: Ποιότητα Λογισμικού
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Μ. Ξένος"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Εξασφάλιση Ποιότητας και Πρότυπα
+    formerly: ["Εξασφάλιση Ποιότητας και Πρότυπα"]
+  - code: CEID_NE5597
+    code_official: CEID_ΝΕ5597
+    title: Ανάκτηση Πληροφορίας
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Χρ. Μακρής"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5657
+    code_official: CEID_ΝΕ5657
+    title: Επεξεργασία και κατανόηση φυσικής γλώσσας
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Γλωσσική Τεχνολογία · Δεν θα διδαχθεί το 2025-26
+    formerly: ["Γλωσσική Τεχνολογία"]
+  - code: CEID_NE5678
+    code_official: CEID_ΝΕ5678
+    title: Σχεδιασμός Συστημάτων Ειδικού Σκοπού
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 0}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χ. Βέργος"]
+    notes: null
+    formerly: []
+  - code: CEID_NE584
+    code_official: CEID_ΝΕ584
+    title: e-Επιχειρείν
+    type: elective
+    semester: null
+    season: winter
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Ι. Γαροφαλάκης", "Μ. Ρηγκου", "Ε. Βογιατζακη (ΕΔΙΠ)"]
+    notes: ΜΕΤΑΦΟΡΑ από εαρινό εξάμηνο
+    formerly: []
+  - code: CEID_NE9DE
+    code_official: CEID_ΝΕ9ΔΕ
+    title: Εισαγωγή στη Διοίκηση και Οργάνωση Επιχειρήσεων για Μηχανικούς και Επιστήμονες
+    type: elective
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: Τμήμα Διοίκησης Επιχειρήσεων
+    instructors: ["Αντ. Γεωργόπουλος"]
+    notes: "Ανώτατος αριθμός δηλώσεων: 30 φοιτητές· δεν μπορούν να το δηλώσουν όσοι έχουν δηλώσει και επιτύχει στο πρώην μάθημα ΓΠ 3ου εξαμήνου «Διοίκηση Επιχειρήσεων»"
+    formerly: []
+  - code: CEID_NSM02
+    code_official: CEID_ΝΣΜ02
+    title: Ασφάλεια Υπολογιστών και Δικτύων
+    type: elective
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: Τμήμα Ηλ/γων Μηχ/κών & Τεχν. Η/Υ
+    instructors: ["Δ. Σερπάνος", "Κ. Βλάχος (συνδιδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_NSM05
+    code_official: CEID_ΝΣΜ05
+    title: Διαδραστικές Τεχνολογίες
+    type: elective
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: Τμήμα Ηλεκτρ. Μηχ. και Τεχνολογίας Υπολογιστών
+    instructors: ["Ν. Αβούρης", "Χ. Σιντόρης (ΕΔΙΠ)", "Κ. Μουστάκας"]
+    notes: null
+    formerly: []
+  - code: CEID_NSM06
+    code_official: CEID_ΝΣΜ06
+    title: Ηλεκτροακουστική
+    type: elective
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: Τμήμα Ηλεκτρ. Μηχ. και Τεχνολογίας Υπολογιστών
+    instructors: ["Ι. Μουρτζόπουλος", "Π. Χατζηαντωνίου (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP37
+    code_official: CEID_ΓΠ37
+    title: Φιλοσοφία του νου
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλοσοφίας
+    instructors: ["Παγωνδιώτης Κων/ος (Επ. Καθηγητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP70
+    code_official: CEID_ΓΠ70
+    title: Η Βυζαντινή Φιλολογία στον 21ο αιώνα
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Ε-Σ Κιαπίδου (Αν. Καθηγήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP71
+    code_official: CEID_ΓΠ71
+    title: Εισαγωγή στη Νεοελληνική Φιλολογία
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Ι. Παπαθεοδώρου (Αν. Καθηγητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP72
+    code_official: CEID_ΓΠ72
+    title: Αρχαία Ελληνική Ιστορία
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Α. Σύρκου (Αν. Καθηγήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP73
+    code_official: CEID_ΓΠ73
+    title: Μύθος και Τελετουργία στην Αρχαία Ελλάδα
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_GP74
+    code_official: CEID_ΓΠ74
+    title: "Ιστορία της Ευρωπαϊκής Λογοτεχνίας: 19ος – 20ος αι."
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: []
+    notes: Δεν προσφέρεται το 2025-26
+    formerly: []
+  - code: CEID_GP75
+    code_official: CEID_ΓΠ75
+    title: Νεότερη Ηθική Φιλοσοφία
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλοσοφίας
+    instructors: ["Α. Μιχαλάκης (Επ. Καθηγητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP80
+    code_official: CEID_ΓΠ80
+    title: Περιγραφική Ανάλυση της Νέας Ελληνικής
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Χρ. Βλάχος (Επ. Καθηγητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP81
+    code_official: CEID_ΓΠ81
+    title: Η ποίηση και η ποιητική του Καβάφη
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Α. Κωστίου (Καθηγήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_OIK5
+    code_official: CEID_ΟΙΚ5
+    title: Βασικές Αρχές Αστικού Δικαίου
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Οικονομικών Επιστημών
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_OIK6
+    code_official: CEID_ΟΙΚ6
+    title: Εμπορικό Δίκαιο
+    type: general-education
+    semester: null
+    season: winter
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Οικονομικών Επιστημών
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_24EE594
+    code_official: CEID_24ΕΕ594
+    title: Αλγοριθμικές Τεχνικές Επιστήμης δεδομένων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Ζαρολιάγκης", "Σ. Κοντογιάννης"]
+    notes: null
+    formerly: []
+  - code: CEID_24EE595
+    code_official: CEID_24ΕΕ595
+    title: Διαχείριση έργων λογισμικού και ανάπτυξη με ευέλικτες μεθόδους
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Μ. Ξένος", "Α. Ηλίας (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_24EE596
+    code_official: CEID_24ΕΕ596
+    title: Μέθοδοι Μητρώων και Υπολογιστικά Εργαλεία στην Επιστήμη Δεδομένων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Ε. Γαλλόπουλος"]
+    notes: null
+    formerly: []
+  - code: CEID_25EE606
+    code_official: CEID_25EE606
+    title: Τοπολογική Ανάλυση Δεδομένων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Α. Ανδρικόπουλος"]
+    notes: νέο μάθημα
+    formerly: []
+  - code: CEID_25EE607
+    code_official: CEID_25EE607
+    title: Παράλληλη Επεξεργασία
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Π. Χατζηδούκας", "Ε. Δερματάς"]
+    notes: νέο μάθημα
+    formerly: []
+  - code: CEID_25EE609
+    code_official: CEID_25EE609
+    title: Επεξεργασία και Ανάλυση Video
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 3, tutorial: 0, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Δ. Κοσμόπουλος"]
+    notes: νέο μάθημα
+    formerly: []
+  - code: CEID_25EE605
+    code_official: CEID_25EΕ605
+    title: Όρια Υπολογισμού και Αλγοριθμικές Στρατηγικές Επίλυσης Προβλημάτων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: []
+    notes: νέο μάθημα · Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_25EE608
+    code_official: CEID_25EΕ608
+    title: Αρχές Ψηφιακού Ελέγχου
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Ε. Δερματάς"]
+    notes: νέο μάθημα
+    formerly: []
+  - code: CEID_25EE599
+    code_official: CEID_25ΕΕ599
+    title: Θεωρία μη Γραμμικών Δυναμικών Συστημάτων και Εφαρμογές
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: []
+    notes: νέο μάθημα · Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE577
+    code_official: CEID_NE 577
+    title: "Αρχιτεκτονικές δικτύων επόμενης γενιάς, Τεχνολογίες και Εφαρμογές"
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 3, tutorial: 0, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χρ. Βερυκούκης"]
+    notes: "ΜΕΤΟΝΟΜΑΣΙΑ του Αρχιτεκτονικές 5G, τεχνολογίες, εφαρμογές και βασικοί δείκτες απόδοσης"
+    formerly: ["Αρχιτεκτονικές 5G, τεχνολογίες, εφαρμογές και βασικοί δείκτες απόδοσης"]
+  - code: CEID_NE4017
+    code_official: CEID_NE4017
+    title: Μαθηματική Λογική και Εφαρμογές της
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 3, tutorial: 2, lab: 0}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Κοσμαδάκης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4168
+    code_official: CEID_NE4168
+    title: Κρυπτογραφία
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Κακλαμάνης", "Ε. Παπαϊωάννου", "Ν. Καρανικόλας (Μεταδιδάκτορας-Ερευνητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4348
+    code_official: CEID_NE4348
+    title: Συστήματα Διαχείρισης Μεγάλων Δεδομένων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Β. Μεγαλοοικονόμου", "Ε. Ζαχαράκη"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4658
+    code_official: CEID_NE4658
+    title: Σχεδίαση Συστημάτων με Χρήση Υπολογιστών (CAD)
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 0, lab: 4}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Χ. Βέργος"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4828
+    code_official: CEID_NE4828
+    title: Επεξεργασία και Ανάλυση Εικόνας
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Αρβανίτης Γεράσιμος (Εντεταλμένος Διδάσκων ΑΑΔΕ)"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Ψηφιακή Επεξεργασία και Ανάλυση Εικόνας
+    formerly: ["Ψηφιακή Επεξεργασία και Ανάλυση Εικόνας"]
+  - code: CEID_NE5078
+    code_official: CEID_NE5078
+    title: Τεχνολογίες Υλοποίησης Αλγορίθμων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Χρ. Ζαρολιάγκης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5168
+    code_official: CEID_NE5168
+    title: Ευρυζωνικές Τεχνολογίες
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Ε. Παπαϊωάννου", "Χρ. Κακλαμάνης", "Β. Κόκκινος (Εντεταλμένος Διδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5178
+    code_official: CEID_NE5178
+    title: Τηλεματική και Νέες Υπηρεσίες
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE520
+    code_official: CEID_NE520
+    title: Αλγόριθμοι και Εφαρμογές Τεχνητής Νοημοσύνης για το Διαδίκτυο των Αντικειμένων (IoT)
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Νικολετσέας", "Αλ. Μανωλόπουλος (Μεταδιδάκτορας-Ερευνητής)"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Αλγοριθμικές Θεμελιώσεις Δικτύων Αισθητήρων
+    formerly: ["Αλγοριθμικές Θεμελιώσεις Δικτύων Αισθητήρων"]
+  - code: CEID_NE5218
+    code_official: CEID_NE5218
+    title: Υπολογιστική Νοημοσύνη
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE5358
+    code_official: CEID_NE5358
+    title: Εισαγωγή στα Πληροφοριακά Συστήματα
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Μ. Ξένος", "Ι. Βασιλόπουλος (ΕΔΙΠ)", "Α. Ηλίας (ΕΔΙΠ)"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Εφαρμοσμένα Πληροφοριακά Συστήματα ΙΙ
+    formerly: ["Εφαρμοσμένα Πληροφοριακά Συστήματα ΙΙ"]
+  - code: CEID_NE5478
+    code_official: CEID_NE5478
+    title: Υπολογιστικές Μέθοδοι στην Οικονομία
+    type: elective
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: null
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: ΚΑΤΑΡΓΕΙΤΑΙ
+    formerly: []
+  - code: CEID_NE548
+    code_official: CEID_NE548
+    title: Εισαγωγή στη Βιοπληροφορική
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Χρ. Μακρής", "Β. Μεγαλοοικονόμου"]
+    notes: null
+    formerly: []
+  - code: CEID_NE552
+    code_official: CEID_NE552
+    title: Τεχνολογίες Ευφυών Συστημάτων και Ρομποτική
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE562
+    code_official: CEID_NE562
+    title: Εξόρυξη Δεδομένων και Μηχανική Μάθηση
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Χρ. Μακρής", "Β. Μεγαλοοικονόμου"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Εξόρυξη Δεδομένων και Αλγόριθμοι Μάθησης
+    formerly: ["Εξόρυξη Δεδομένων και Αλγόριθμοι Μάθησης"]
+  - code: CEID_NE5647
+    code_official: CEID_NE5647
+    title: Σχεδιασμός Συστημάτων VLSI
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 3, tutorial: 0, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_NE5668
+    code_official: CEID_NE5668
+    title: Ειδικά Θέματα Σχεδίασης Ψηφιακών Συστημάτων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Π. Σισμάνογλου (Εντεταλμένος Διδάσκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_NE576
+    code_official: CEID_NE576
+    title: Διάχυτος Υπολογισμός
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Α. Κομνηνός"]
+    notes: null
+    formerly: []
+  - code: CEID_NE589
+    code_official: CEID_NE589
+    title: Αποκεντρωμένος Υπολογισμός και Μοντελοποίηση
+    type: elective
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: null
+    sector: ΕΘ
+    taught_by: null
+    instructors: []
+    notes: ΚΑΤΑΡΓΕΙΤΑΙ
+    formerly: []
+  - code: CEID_NE5908
+    code_official: CEID_NE5908
+    title: Κοινωνικές και Νομικές Πλευρές της Τεχνολογίας
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΛΥ
+    taught_by: null
+    instructors: ["Ι. Γαροφαλάκης", "Γ. Καπελλάκου (Εντεταλμένος Διδασκων)"]
+    notes: null
+    formerly: []
+  - code: CEID_NE591
+    code_official: CEID_NE591
+    title: Ασφάλεια σε Υλικό
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 3, tutorial: 0, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Ν. Σκλάβος"]
+    notes: null
+    formerly: []
+  - code: CEID_NE593
+    code_official: CEID_NE593
+    title: "Επεξεργασία Σημάτων, θεωρία Γραφημάτων και Μάθηση"
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Δ. Κοσμόπουλος", "Εμμ Ψαράκης", "Στ. Κοσμαδάκης"]
+    notes: ΜΕΤΟΝΟΜΑΣΙΑ του Επεξεργασία Σημάτων και Γραφήματα
+    formerly: ["Επεξεργασία Σημάτων και Γραφήματα"]
+  - code: CEID_ERA2
+    code_official: CEID_ΕRA2
+    title: Μάθημα Erasmus
+    type: other
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: null
+    instructors: ["Α. Κομνηνός"]
+    notes: null
+    formerly: []
+  - code: CEID_NE4617
+    code_official: CEID_ΝΕ4617
+    title: Προχωρημένα Θέματα Αρχιτεκτονικής Υπολογιστών
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Γ. Παπαδημητρίου"]
+    notes: ΜΕΤΑΦΟΡΑ από χειμερινό εξάμηνο
+    formerly: []
+  - code: CEID_NE509
+    code_official: CEID_ΝΕ509
+    title: Αλγοριθμική Θεωρία Παιγνίων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Σ. Κοντογιάννης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE5288
+    code_official: CEID_ΝΕ5288
+    title: Ειδικά Θέματα Υπολογιστικής Λογικής
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 2, lab: 1}
+    dm: null
+    ects: 5
+    sector: ΕΘ
+    taught_by: null
+    instructors: ["Στ. Κοσμαδάκης", "Χρ. Κακλαμάνης"]
+    notes: null
+    formerly: []
+  - code: CEID_NE579
+    code_official: CEID_ΝΕ579
+    title: Εφαρμογές της Ψηφιακής Επεξεργασίας Σημάτων
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 1, lab: 2}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Εμμ. Ψαράκης"]
+    notes: ΜΕΤΑΦΟΡΑ από χειμερινό εξάμηνο
+    formerly: []
+  - code: CEID_NE588
+    code_official: CEID_ΝΕ588
+    title: Ενσωματωμένα Συστήματα
+    type: elective
+    semester: null
+    season: spring
+    hours: {theory: 2, tutorial: 0, lab: 3}
+    dm: null
+    ects: 5
+    sector: ΥΑ
+    taught_by: null
+    instructors: ["Ν. Σκλάβος"]
+    notes: ΜΕΤΑΦΟΡΑ από χειμερινό εξάμηνο
+    formerly: []
+  - code: CEID_NPA
+    code_official: CEID_ΝΠΑ
+    title: Πρακτική Άσκηση
+    type: other
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: null
+    instructors: ["Εμμ. Ψαράκης"]
+    notes: null
+    formerly: []
+  - code: CEID_NSM04
+    code_official: CEID_ΝΣΜ04
+    title: Ρομποτική
+    type: elective
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: Τμήμα Μηχανολόγων Μηχ. και Αεροναυπηγών Μηχανικών
+    instructors: ["Γ. Νικολακόπουλος", "Π. Κουστουμπάρδης (ΕΔΙΠ)", "Ε. Δερματάς"]
+    notes: null
+    formerly: []
+  - code: CEID_NSM07
+    code_official: CEID_ΝΣΜ07
+    title: Οπτικές Επικοινωνίες
+    type: elective
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 5
+    sector: null
+    taught_by: Τμήμα Ηλεκτρ. Μηχ. και Τεχνολογίας Υπολογιστών
+    instructors: ["Ι. Τόμκος"]
+    notes: null
+    formerly: []
+  - code: CEID_GP00
+    code_official: CEID_ΓΠ00
+    title: Αγγλικά ΙΙ
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Διδασκαλείο Ξένων Γλωσσών
+    instructors: ["Κ. Σπηλιοπούλου (Καθηγήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP68
+    code_official: CEID_ΓΠ68
+    title: Αισθητική
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλοσοφίας
+    instructors: ["Γ. Σαγκριώτης (Επ. Καθηγητής)"]
+    notes: "ΜΕΤΑΦΟΡΑ από χειμερινό εξάμηνο · Ανώτατος αριθμός δηλώσεων: 20 φοιτητές"
+    formerly: []
+  - code: CEID_GP22
+    code_official: CEID_ΓΠ22
+    title: Ιστορία της Τέχνης στη Νεότερη Εποχή
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Θεατρικών Σπουδών
+    instructors: ["Αικ..Κ. Παπανδρεοπούλου (Επ. Καθηγήτρια)"]
+    notes: "Ανώτατος αριθμός δηλώσεων: 25 φοιτητές"
+    formerly: []
+  - code: CEID_GP23
+    code_official: CEID_ΓΠ23
+    title: Αρχαιολογία του Αρχαίου Θεάτρου
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Θεατρικών Σπουδών
+    instructors: []
+    notes: Δεν θα διδαχθεί το 2025-26
+    formerly: []
+  - code: CEID_GP36
+    code_official: CEID_ΓΠ36
+    title: Σύγχρονη Πρακτική Φιλοσοφία
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλοσοφίας
+    instructors: ["Μ. Σκομβούλης (ΕΔΙΠ)"]
+    notes: "Ανώτατος αριθμός δηλώσεων: 20 φοιτητές"
+    formerly: []
+  - code: CEID_GP34
+    code_official: CEID_ΓΠ34
+    title: "Νεότερη Γνωσιοθεωρία – Μεταφυσική Ι"
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλοσοφίας
+    instructors: ["Γ. Σαγκριώτης (Επ. Καθηγητής)"]
+    notes: "Ανώτατος αριθμός δηλώσεων: 20 φοιτητές"
+    formerly: []
+  - code: CEID_GP76
+    code_official: CEID_ΓΠ76
+    title: Ελληνιστική και Ρωμαϊκή Ιστορία
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Α. Σύρκου (Αν. Καθηγήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP77
+    code_official: CEID_ΓΠ77
+    title: "Η Δημοκρατία στην Αρχαία Ελλάδα: οι μαρτυρίες των πηγών"
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Αθ. Παπαχρυσοστόμου (Καθηγήτρια)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP78
+    code_official: CEID_ΓΠ78
+    title: Η Λαϊκή Παράδοση στην ελληνική και ρωμαϊκή αρχαιότητα
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Α. Ποταμίτη (ΕΔΙΠ)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP79
+    code_official: CEID_ΓΠ79
+    title: Κοινωνιογλωσσολογία
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Αρ. Αρχάκης (Καθηγητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_GP82
+    code_official: CEID_ΓΠ82
+    title: Εισαγωγή στη Γλωσσολογία ΙΙ
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Φιλολογίας
+    instructors: ["Γ. Ξυδόπουλος (Καθηγητής)"]
+    notes: null
+    formerly: []
+  - code: CEID_DE2
+    code_official: CEID_ΔΕ2
+    title: Εισαγωγή στο Μάρκετινγκ
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Διοίκησης Επιχειρήσεων
+    instructors: ["Ευθύμιος Δραγώτης (Εντεταλμένος Διδάσκων)"]
+    notes: "Ανώτατος αριθμός δηλώσεων: 30 φοιτητές"
+    formerly: []
+  - code: CEID_DE7
+    code_official: CEID_ΔΕ7
+    title: Δημόσια Οικονομική
+    type: general-education
+    semester: null
+    season: spring
+    hours: null
+    dm: null
+    ects: 3
+    sector: null
+    taught_by: Τμήμα Διοίκησης Επιχειρήσεων
+    instructors: ["Γ. Οικονομάκης (Καθηγητής)"]
+    notes: null
+    formerly: []

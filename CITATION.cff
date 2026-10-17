@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Αν το χρησιμοποιήσεις, παρέθεσέ το ως εξής."
+title: "CEID Notes: οδηγοί μελέτης και αρχείο εξετάσεων ΤΜΗΥΠ"
+authors:
+  - name: "Giorgos Kandilas"
+repository-code: "https://github.com/kdngiorgos/ceid-notes"
+url: "https://kdngiorgos.github.io/ceid-notes/"
+license: CC-BY-NC-SA-4.0

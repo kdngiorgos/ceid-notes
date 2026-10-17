@@ -1,0 +1,47 @@
+name: "Επιβεβαίωση / αμφισβήτηση λύσης"
+description: "Έλεγξες μια λύση; Πες μας αν είναι σωστή ή όχι."
+title: "[Επαλήθευση] "
+labels: ["verify"]
+body:
+  - type: input
+    id: course
+    attributes:
+      label: Μάθημα
+      description: "Συμπληρώνεται αυτόματα από το κουμπί της σελίδας."
+    validations:
+      required: true
+  - type: input
+    id: session
+    attributes:
+      label: Εξεταστική (π.χ. 2025-06)
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Συμπέρασμα
+      options:
+        - "✔ Η λύση είναι σωστή (όλη)"
+        - "✔ Σωστή εν μέρει (γράψε ποια θέματα)"
+        - "✖ Βρήκα λάθος"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Λεπτομέρειες
+      description: "Ποια θέματα ελέγχθηκαν; Πώς το επιβεβαίωσες (π.χ. ο καθηγητής, δική σου λύση); Αν υπάρχει λάθος, ποιο είναι το σωστό;"
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Όνομα για credit (GitHub handle ή ψευδώνυμο)
+      description: "Θα γραφτεί ως verified_by αν η λύση επιβεβαιωθεί."
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Συναίνεση
+      options:
+        - label: "Δεν περιέχω ονόματα, ΑΜ ή τηλέφωνα."
+          required: true

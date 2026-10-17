@@ -1,0 +1,36 @@
+name: "Βρήκα λάθος"
+description: "Λάθος σε θέμα, λύση ή οδηγό μαθήματος."
+title: "[Λάθος] "
+labels: ["fix"]
+body:
+  - type: input
+    id: course
+    attributes:
+      label: Μάθημα
+      placeholder: "π.χ. Λειτουργικά Συστήματα (CEID_24Y330)"
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Σελίδα ή σύνδεσμος
+      description: "Επικόλλησε το URL της σελίδας του site ή το όνομα του αρχείου."
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Τι είναι λάθος και ποιο είναι το σωστό;
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Όνομα για credit (προαιρετικό)
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Συναίνεση
+      options:
+        - label: "Δεν περιέχω ονόματα, ΑΜ ή τηλέφωνα."
+          required: true
