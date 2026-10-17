@@ -17,28 +17,29 @@
 Πατώντας ένα όνομα κατεβαίνει το PDF. Κάθε λύση έχει ένδειξη αξιοπιστίας· οι λύσεις με ένδειξη AI δεν έχουν ελεγχθεί από άνθρωπο.
 
 **1ο εξάμηνο**  
-[Βασικές Αρχές Οργάνωσης και Λειτουργίας Υπολογιστικών Συστημάτων](docs/study-guides/CEID_22Y104.pdf) (31 σελ.) · [Γραμμική Άλγεβρα](docs/study-guides/CEID_22Y102.pdf) (30 σελ.) · [Διακριτά Μαθηματικά](docs/study-guides/CEID_22Y101.pdf) (32 σελ.)
+[Βασικές Αρχές Οργάνωσης και Λειτουργίας Υπολογιστικών Συστημάτων](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_22Y104.pdf) (31 σελ.) · [Γραμμική Άλγεβρα](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_22Y102.pdf) (30 σελ.) · [Διακριτά Μαθηματικά](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_22Y101.pdf) (32 σελ.)
 
 **2ο εξάμηνο**  
-[Αντικειμενοστρεφής Προγραμματισμός](docs/study-guides/CEID_23Y106.pdf) (44 σελ.) · [Λογική Σχεδίαση](docs/study-guides/CEID_23Y107.pdf) (30 σελ.)
+[Αντικειμενοστρεφής Προγραμματισμός](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y106.pdf) (44 σελ.) · [Λογική Σχεδίαση](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y107.pdf) (30 σελ.)
 
 **3ο εξάμηνο**  
-[Εισαγωγή στους Αλγόριθμους](docs/study-guides/CEID_23Y205.pdf) (25 σελ.) · [Θεωρία Γραφημάτων και Εφαρμογές](docs/study-guides/CEID_23Y202.pdf) (39 σελ.) · [Πιθανότητες και Αρχές Στατιστικής](docs/study-guides/CEID_23Y204.pdf) (48 σελ.)
+[Εισαγωγή στους Αλγόριθμους](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y205.pdf) (25 σελ.) · [Θεωρία Γραφημάτων και Εφαρμογές](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y202.pdf) (39 σελ.) · [Πιθανότητες και Αρχές Στατιστικής](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y204.pdf) (48 σελ.)
 
 **4ο εξάμηνο**  
-[Αριθμητική Ανάλυση και Περιβάλλοντα Υλοποίησης](docs/study-guides/CEID_23Y209.pdf) (38 σελ.) · [Αρχές Γλωσσών Προγραμματισμού και Μεταφραστών](docs/study-guides/CEID_23Y206.pdf) (49 σελ.) · [Δομές Δεδομένων](docs/study-guides/CEID_23Y210.pdf) (35 σελ.) · [Θεωρία Σημάτων και Συστημάτων](docs/study-guides/CEID_23Y207.pdf) (33 σελ.)
+[Αριθμητική Ανάλυση και Περιβάλλοντα Υλοποίησης](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y209.pdf) (38 σελ.) · [Αρχές Γλωσσών Προγραμματισμού και Μεταφραστών](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y206.pdf) (49 σελ.) · [Δομές Δεδομένων](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y210.pdf) (35 σελ.) · [Θεωρία Σημάτων και Συστημάτων](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_23Y207.pdf) (33 σελ.)
 
 **5ο εξάμηνο**  
-[Βάσεις Δεδομένων](docs/study-guides/CEID_24Y334.pdf) (25 σελ.) · [Λειτουργικά Συστήματα](docs/study-guides/CEID_24Y330.pdf) (26 σελ.) · [Συστήματα Μικροϋπολογιστών](docs/study-guides/CEID_24Y361.pdf) (22 σελ.) · [Τεχνητή Νοημοσύνη](docs/study-guides/CEID_24Y351.pdf) (24 σελ.) · [Ψηφιακή Επεξεργασία Σημάτων](docs/study-guides/CEID_24Y381.pdf) (21 σελ.)
+[Βάσεις Δεδομένων](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y334.pdf) (25 σελ.) · [Λειτουργικά Συστήματα](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y330.pdf) (26 σελ.) · [Συστήματα Μικροϋπολογιστών](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y361.pdf) (22 σελ.) · [Τεχνητή Νοημοσύνη](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y351.pdf) (24 σελ.) · [Ψηφιακή Επεξεργασία Σημάτων](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y381.pdf) (21 σελ.)
 
 **6ο εξάμηνο**  
-[Δίκτυα Υπολογιστών](docs/study-guides/CEID_24Y387.pdf) (22 σελ.) · [Θεωρία Υπολογισμού και Πολυπλοκότητα](docs/study-guides/CEID_24Y301.pdf) (23 σελ.) · [Προγραμματισμός και Συστήματα στον Παγκόσμιο Ιστό](docs/study-guides/CEID_24Y338.pdf) (24 σελ.) · [Τεχνολογία Λογισμικού](docs/study-guides/CEID_24Y332.pdf) (34 σελ.)
+[Δίκτυα Υπολογιστών](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y387.pdf) (22 σελ.) · [Θεωρία Υπολογισμού και Πολυπλοκότητα](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y301.pdf) (23 σελ.) · [Προγραμματισμός και Συστήματα στον Παγκόσμιο Ιστό](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y338.pdf) (24 σελ.) · [Τεχνολογία Λογισμικού](https://github.com/kdngiorgos/ceid-notes/releases/latest/download/CEID_24Y332.pdf) (34 σελ.)
+
+Οι οδηγοί (PDF) δεν αποθηκεύονται στον κώδικα· βρίσκονται στα [Releases](../../releases/latest), όπου μετριέται ανώνυμα πόσες φορές κατεβαίνει ο καθένας.
 
 ## Δομή του αποθετηρίου
 
 ```
 docs/
-  study-guides/      οι 21 οδηγοί μελέτης (PDF), ένα αρχείο ανά μάθημα (CEID_<κωδικός>.pdf)
   Semesters/         τα υποχρεωτικά μαθήματα, ένας φάκελος ανά μάθημα
   Electives (…)/     μαθήματα επιλογής και γενικής παιδείας
   Old Classes (…)/   παλαιό πρόγραμμα σπουδών
@@ -57,6 +58,9 @@ tools/               έλεγχοι που τρέχουν σε κάθε Pull Req
 - Pull Requests: δες το [CONTRIBUTING](CONTRIBUTING.md)
 
 Όλα ελέγχονται από τον διαχειριστή πριν δημοσιευτούν. Οι συνεισφέροντες αναφέρονται στο [CONTRIBUTORS](CONTRIBUTORS.md).
+
+## Στατιστικά χρήσης
+Μετράμε ανώνυμα επισκέψεις και λήψεις αρχείων (GoatCounter, χωρίς cookies και χωρίς προσωπικά δεδομένα· GitHub Releases για τα PDF), ώστε να ξέρουμε ποια μαθήματα χρειάζονται περισσότερο.
 
 ## Άδεια
 Το πρωτότυπο περιεχόμενο: [CC BY-NC-SA 4.0](LICENSE). Τα θέματα των εξετάσεων ανήκουν στους διδάσκοντες και στο Πανεπιστήμιο Πατρών και παρατίθενται μόνο για μελέτη.
