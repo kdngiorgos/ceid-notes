@@ -3,12 +3,12 @@
 <!-- BEGIN:sessions -->
 | Συνεδρία | Ετικέτα | Μορφή | Μεταγραφή | Λύσεις | Πηγές |
 |---|---|---|---|---|---|
-| [2018-06](2018-06.md) | Ιούνιος 2018 | open | verbatim | none | 1 |
-| [2018-09](2018-09.md) | Σεπτέμβριος 2018 | open | verbatim | none | 1 |
-| [2019-06](2019-06.md) | Ιούνιος 2019 | open | verbatim | none | 1 |
-| [2022-06](2022-06.md) | Ιούνιος 2022 | open | verbatim | none | 2 |
-| [2023-06](2023-06.md) | Ιούνιος 2023 | open | partial | none | 1 |
-| [2025-06](2025-06.md) | Ιούνιος 2025 | open | verbatim | none | 1 |
+| [2018-06](2018-06.md) | Ιούνιος 2018 | open | verbatim | [ai-unverified](2018-06.md) | 1 |
+| [2018-09](2018-09.md) | Σεπτέμβριος 2018 | open | verbatim | [ai-unverified](2018-09.md) | 1 |
+| [2019-06](2019-06.md) | Ιούνιος 2019 | open | verbatim | [ai-unverified](2019-06.md) | 1 |
+| [2022-06](2022-06.md) | Ιούνιος 2022 | open | verbatim | [ai-unverified](2022-06.md) | 2 |
+| [2023-06](2023-06.md) | Ιούνιος 2023 | open | partial | [ai-unverified](2023-06.md) | 1 |
+| [2025-06](2025-06.md) | Ιούνιος 2025 | open | verbatim | [ai-unverified](2025-06.md) | 1 |
 
 Σύνολο: 6 συνεδρίες.
 

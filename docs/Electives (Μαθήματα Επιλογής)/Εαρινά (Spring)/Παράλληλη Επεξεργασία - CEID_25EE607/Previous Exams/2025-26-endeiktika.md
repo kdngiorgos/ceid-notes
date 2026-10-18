@@ -8,7 +8,7 @@ format: mixed
 duration_min: null
 notes: "Ενδεικτικά θέματα από eClass (4 σελίδες, 21 ερωτήσεις). Το φύλλο φέρει τον τίτλο «Λογισμικό και Προγραμματισμός Συστημάτων Υψηλής Επίδοσης» (ΛΠΣΥΕ) και δεν έχει ημερομηνία εξέτασης. Τα πεδία ονόματος, επωνύμου, ΑΜ και έτους παραλείπονται."
 transcription: verbatim
-solutions: none
+solutions: ai-unverified
 ---
 # Παράλληλη Επεξεργασία — Ενδεικτικά θέματα (ΛΠΣΥΕ, Εαρινό 2025-26)
 
@@ -268,6 +268,166 @@ int main()
   return 0;
 }
 ```
+
+??? success "Λύσεις (⚪ AI, μη επαληθευμένο)"
+    **Κατάσταση:** ⚪ AI, μη επαληθευμένο
+    Πηγή: λύσεις AI (deepseek-flash), ανεξάρτητη επανάληψη και αντιπαραβολή· καμία δεν έχει ελεγχθεί από άνθρωπο
+
+    !!! warning "Προσοχή"
+        Λύση από AI — ελέγξτε την· δεν έχει επαληθευτεί από άνθρωπο. Η ένδειξη «δύο λύσεις συμφωνούν» δεν σημαίνει ότι η απάντηση είναι σωστή.
+
+    # AI λύσεις — 2025-26-endeiktika
+
+    > Οι λύσεις γράφτηκαν από μοντέλα AI και δεν έχουν ελεγχθεί από άνθρωπο. Η αρίθμηση ακολουθεί το αρχείο θεμάτων.
+
+    ## Θέμα Ενδεικτικά θέματα (ΛΠΣΥΕ, Εαρινό 2025-26)
+
+    *Αξιοπιστία: μία λύση AI, δεν έχει αντιπαραβληθεί με δεύτερη · εμπιστοσύνη λύτη: υψηλή*
+
+    1. **c. υποδιπλασιάσουμε την ακρίβεια των πράξεων κινητής υποδιαστολής (double σε float).**  
+       Με float χωρούν διπλάσια στοιχεία ανά διανυσματικό καταχωρητή σε σχέση με double, άρα μπορεί να διπλασιαστεί η ονομαστική κορυφαία απόδοση.
+
+    2. **b. 5.**  
+       Από τον νόμο Amdahl: $S_{\max}=\frac{1}{0.20}=5$, αφού το 20\% είναι μη παραλληλοποιήσιμο.
+
+    3. Η μέγιστη ονομαστική απόδοση είναι  
+       \[
+       4 \times 2.1\times 10^9 \times 8 \times 2 = 134.4\ \text{GFLOP/s}.
+       \]  
+       Εδώ το FMA μετράει ως 2 πράξεις κινητής υποδιαστολής ανά στοιχείο. Άρα **134.4 GFLOP/s**.
+
+    4. **a. τίποτα από τα παρακάτω.**  
+       Με 4 νήματα οι ιδιωτικές τιμές είναι $-4,-3,-2,-1$. Το γινόμενο είναι  
+       \[
+       (-4)(-3)(-2)(-1)=24,
+       \]
+       το οποίο δεν υπάρχει στις επιλογές.
+
+    5. **d. firstprivate.**  
+       Η `b` είναι private στην παράλληλη περιοχή, αλλά μέσα στο task λαμβάνεται ως firstprivate εξ ορισμού, δηλαδή αντιγράφεται η τιμή της κατά τη δημιουργία του task.
+
+    6. Με `schedule(static,3)` και 12 επαναλήψεις δημιουργούνται 4 chunks των 3 επαναλήψεων, ένα για κάθε νήμα:
+       - νήμα 0: $i=0,1,2$
+       - νήμα 1: $i=3,4,5$
+       - νήμα 2: $i=6,7,8$
+       - νήμα 3: $i=9,10,11$
+
+       Άρα:
+       \[
+       A=\{0,0,0,\;1,1,1,\;2,2,2,\;3,3,3\}.
+       \]
+
+    7. Αρχικά `var1 = rank+1`, άρα για ranks $0,1,2,3$ οι τιμές είναι $1,2,3,4$.  
+       Το `MPI_Reduce` με `MPI_SUM` στη ρίζα 0 δίνει `var2 = 10` στη rank 0.  
+       Το `MPI_Bcast` μεταδίδει το `var2 = 10` σε όλες τις διεργασίες.  
+       Το `MPI_Allreduce` με `MPI_SUM` αθροίζει τέσσερα 10:  
+       \[
+       var3 = 10+10+10+10 = 40.
+       \]  
+       Η rank 1 εκτυπώνει: **`40.000000`**.
+
+    8. **c. 24.**  
+       Το `MPI_Scan` με `MPI_PROD` είναι inclusive prefix γινόμενο. Για rank 2:
+       \[
+       (0+2)(1+2)(2+2)=2\cdot 3\cdot 4=24.
+       \]
+
+    9. **d. Όλα τα παραπάνω.**  
+       Οι συλλογικές I/O απαιτούν συμμετοχή όλων των διεργασιών, μπορούν να είναι πιο αποδοτικές και υλοποιούνται με συναρτήσεις όπως `MPI_File_read_all()` και `MPI_File_write_all()`.
+
+    10. **b.** Το MPI υποστηρίζει τόσο συλλογικές όσο και ατομικές/ανεξάρτητες λειτουργίες I/O.
+
+    11. **a.** Το SSE χρησιμοποιεί καταχωρητές 128 bits, ενώ το AVX 256 bits.
+
+    12. **a. `_mm_load_ps()`.**  
+        Φορτώνει 4 αριθμούς `float` απλής ακρίβειας σε καταχωρητή SSE 128 bits.
+
+    13. **b. Προσθέτει τα στοιχεία δύο διανυσμάτων με 8 floats το καθένα.**  
+        Το `_mm256_load_ps` και το `_mm256_add_ps` δουλεύουν με 8 single-precision floats.
+
+    14. **d. Όλα τα παραπάνω.**  
+        Το `_mm_load_ps()` απαιτεί στοίχιση 16 bytes, το `_mm256_load_ps()` 32 bytes, και η μη στοιχισμένη πρόσβαση μπορεί να προκαλέσει σφάλμα ή επιβράδυνση.
+
+    15. Σφάλματα:
+        - Το `_mm_load_ps()`/`_mm_store_ps()` απαιτούν διεύθυνση στοιχισμένη στα 16 bytes. Με `data + 2*tid`, για περιττά `tid` η διεύθυνση δεν είναι 16-byte aligned.
+        - Κάθε νήμα γράφει 4 floats, άρα με 16 νήματα και βήμα 2 δημιουργούνται επικαλύψεις και data races.
+        - Το τελευταίο νήμα (`tid=15`) προσπελαύνει τα στοιχεία 30..33, δηλαδή εκτός ορίων του πίνακα των 32 floats.
+        - Δεν ελέγχεται η επιστροφή της `posix_memalign`, και δεν αποδεσμεύεται η μνήμη.
+
+        Διόρθωση: να χρησιμοποιηθούν 8 νήματα, ώστε κάθε νήμα να επεξεργάζεται ένα διανυσματικό chunk των 4 floats:
+        ```c
+        int nThreads = 8;
+        float *data;
+        if (posix_memalign((void **)&data, 16, 32*sizeof(float)) != 0) return 1;
+        for (int i = 0; i < 32; ++i) data[i] = drand48();
+
+        omp_set_num_threads(nThreads);
+        #pragma omp parallel
+        {
+          int tid = omp_get_thread_num();
+          float * const myData = data + 4*tid;
+          __m128 c4 = _mm_set1_ps((float)M_PI);
+          __m128 r4 = _mm_load_ps(myData);
+          __m128 a4 = _mm_mul_ps(c4, _mm_mul_ps(r4, r4));
+          _mm_store_ps(myData, a4);
+        }
+        free(data);
+        ```
+
+    16. **a. `kernel<<<10, 256>>>();`**  
+        Η σύνταξη είναι `kernel<<<αριθμός_μπλοκ, νήματα_ανά_μπλοκ>>>(...)`.  
+        Τυπικά είναι επίσης συντακτικά έγκυρη και η **c. `kernel<<<10, 256, 0>>>();`**, αφού το τρίτο όρισμα 0 δηλώνει 0 bytes dynamic shared memory· η αναμενόμενη απάντηση όμως είναι η **a**.
+
+    17. **b.** Το `__global__` ορίζει kernel που εκτελείται στη GPU και καλείται από τον host.
+
+    18. **c. `cudaMemcpy()` με `cudaMemcpyHostToDevice`.**  
+        Αντιγράφει δεδομένα από host σε device.
+
+    19. **b. Συγχρονίζει όλα τα νήματα σε ένα μπλοκ.**  
+        Δεν συγχρονίζει ολόκληρο grid ούτε host με device.
+
+    20. **b. `0 2 4 6`.**  
+        Με `threadIdx.x = 0,1,2,3`, γράφεται `a[tid] = tid*2`.
+
+    21. Σφάλματα:
+        - Το `b` είναι δείκτης σε device memory μετά το `cudaMalloc`, αλλά ο κώδικας γράφει `b[i] = i` από τον host. Αυτό είναι μη έγκυρη προσπέλαση device μνήμης από host.
+        - Δεν γίνεται `cudaMemcpy` από host σε device πριν τον kernel.
+        - Δεν ελέγχονται σφάλματα των CUDA κλήσεων.
+        - Αν τα αποτελέσματα του kernel χρειάζονται στον host, λείπει συγχρονισμός/αντιγραφή πίσω.
+        - Αν ο kernel χρησιμοποιεί μόνο `threadIdx.x`, με 16 μπλοκ θα επαναλαμβάνονται τα ίδια indices· χρειάζεται global index `blockIdx.x*blockDim.x + threadIdx.x`.
+
+        Ενδεικτική διόρθωση:
+        ```c
+        __global__ void kernel(int *array)
+        {
+          int idx = blockIdx.x * blockDim.x + threadIdx.x;
+          if (idx < 512) {
+            // do something, π.χ. array[idx] = idx;
+          }
+        }
+
+        int main()
+        {
+          int h_b[512];
+          int *d_b;
+
+          for (int i = 0; i < 512; i++) h_b[i] = i;
+
+          cudaMalloc((void **)&d_b, 512*sizeof(int));
+          cudaMemcpy(d_b, h_b, 512*sizeof(int), cudaMemcpyHostToDevice);
+
+          kernel<<<16, 32>>>(d_b);
+          cudaDeviceSynchronize();
+
+          // Αν χρειάζονται τα αποτελέσματα πίσω στον host:
+          cudaMemcpy(h_b, d_b, 512*sizeof(int), cudaMemcpyDeviceToHost);
+
+          cudaFree(d_b);
+          return 0;
+        }
+        ```
+
+    [✔ Επιβεβαίωσε](https://github.com/kdngiorgos/ceid-notes/issues/new?template=verify-solution.yml&title=%CE%95%CF%80%CE%B9%CE%B2%CE%B5%CE%B2%CE%B1%CE%AF%CF%89%CF%83%CE%B7%20%CE%BB%CF%8D%CF%83%CE%B7%CF%82%3A%20CEID_25EE607%202025-26-endeiktika&course=CEID_25EE607&session=2025-26-endeiktika) · [✖ Βρήκα λάθος](https://github.com/kdngiorgos/ceid-notes/issues/new?template=fix-mistake.yml&title=%CE%9B%CE%AC%CE%B8%CE%BF%CF%82%20%CF%83%CF%84%CE%B9%CF%82%20%CE%BB%CF%8D%CF%83%CE%B5%CE%B9%CF%82%3A%20CEID_25EE607%202025-26-endeiktika&course=CEID_25EE607&session=2025-26-endeiktika)
 
 ---
 [✖ Βρήκα λάθος στη μεταγραφή](https://github.com/kdngiorgos/ceid-notes/issues/new?template=fix-mistake.yml&title=%CE%9B%CE%AC%CE%B8%CE%BF%CF%82%20%CF%83%CF%84%CE%B7%20%CE%BC%CE%B5%CF%84%CE%B1%CE%B3%CF%81%CE%B1%CF%86%CE%AE%3A%20CEID_25EE607%202025-26-endeiktika&course=CEID_25EE607&session=2025-26-endeiktika)

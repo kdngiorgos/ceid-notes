@@ -115,6 +115,6 @@ _Παράγεται αυτόματα από `tools/render_readmes.py` — αλλ
 | Φάκελος | Περιεχόμενο |
 |---|---|
 | `discord/` (διαθέσιμο στο πλήρες πακέτο) | 13 περίοδοι συζητήσεων Discord · 1209 μηνύματα |
-| [`Previous Exams/`](Previous%20Exams/README.md) | 5 συνεδρίες εξετάσεων |
+| [`Previous Exams/`](Previous%20Exams/README.md) | 5 συνεδρίες εξετάσεων · 5 με αρχείο λύσεων |
 | [`other/`](other/) | 50 αρχεία (38 εικόνες) · 9 κείμενα (sidecar) · 17 μεταγραφές |
 <!-- END:files -->

@@ -3,9 +3,9 @@
 <!-- BEGIN:sessions -->
 | Συνεδρία | Ετικέτα | Μορφή | Μεταγραφή | Λύσεις | Πηγές |
 |---|---|---|---|---|---|
-| [2025-06](2025-06.md) | Ιούνιος 2025 | multiple-choice | verbatim | none | 10 |
-| [2025](2025.md) | Άγνωστη ημερομηνία (2025) | multiple-choice | partial | none | 1 |
-| [2026-06](2026-06.md) | Ιούνιος 2026 | multiple-choice | partial | none | 5 |
+| [2025-06](2025-06.md) | Ιούνιος 2025 | multiple-choice | verbatim | [ai-unverified](2025-06.md) | 10 |
+| [2025](2025.md) | Άγνωστη ημερομηνία (2025) | multiple-choice | partial | [ai-unverified](2025.md) | 1 |
+| [2026-06](2026-06.md) | Ιούνιος 2026 | multiple-choice | partial | [ai-unverified](2026-06.md) | 5 |
 
 Σύνολο: 3 συνεδρίες.
 

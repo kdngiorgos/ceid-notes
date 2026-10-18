@@ -3,16 +3,16 @@
 <!-- BEGIN:sessions -->
 | Συνεδρία | Ετικέτα | Μορφή | Μεταγραφή | Λύσεις | Πηγές |
 |---|---|---|---|---|---|
-| [2019-09](2019-09.md) | Σεπτέμβριος 2019 | open | partial | none | 3 |
+| [2019-09](2019-09.md) | Σεπτέμβριος 2019 | open | partial | [ai-unverified](2019-09.md) | 3 |
 | [2020-06-a](2020-06-a.md) | Ιούνιος 2020 — Σετ 1 | open | verbatim | [community](2020-06-a.md) | 2 |
-| [2020-06-b](2020-06-b.md) | Ιούνιος 2020 — Σετ 2 | mixed | verbatim | none | 2 |
-| [2020-06-c](2020-06-c.md) | Ιούνιος 2020 — Σετ 3 | mixed | partial | none | 2 |
-| [2020-06-d](2020-06-d.md) | Ιούνιος 2020 — Παραλλαγή 4 | multiple-choice | partial | none | 1 |
-| [2020-09](2020-09.md) | Σεπτέμβριος 2020 | mixed | partial | none | 2 |
+| [2020-06-b](2020-06-b.md) | Ιούνιος 2020 — Σετ 2 | mixed | verbatim | [ai-unverified](2020-06-b.md) | 2 |
+| [2020-06-c](2020-06-c.md) | Ιούνιος 2020 — Σετ 3 | mixed | partial | [ai-unverified](2020-06-c.md) | 2 |
+| [2020-06-d](2020-06-d.md) | Ιούνιος 2020 — Παραλλαγή 4 | multiple-choice | partial | [ai-unverified](2020-06-d.md) | 1 |
+| [2020-09](2020-09.md) | Σεπτέμβριος 2020 | mixed | partial | [ai-unverified](2020-09.md) | 2 |
 | [2022-02](2022-02.md) | Φεβρουάριος 2022 | open | verbatim | [community](2022-02.md) | 6 |
-| [2022-06](2022-06.md) | Ιούνιος 2022 | open | partial | none | 2 |
-| [2024-01](2024-01.md) | Ιανουάριος 2024 | open | verbatim | none | 1 |
-| [2025-01](2025-01.md) | Ιανουάριος 2025 | open | partial | none | 1 |
+| [2022-06](2022-06.md) | Ιούνιος 2022 | open | partial | [ai-unverified](2022-06.md) | 2 |
+| [2024-01](2024-01.md) | Ιανουάριος 2024 | open | verbatim | [ai-unverified](2024-01.md) | 1 |
+| [2025-01](2025-01.md) | Ιανουάριος 2025 | open | partial | [ai-unverified](2025-01.md) | 1 |
 
 Σύνολο: 10 συνεδρίες.
 

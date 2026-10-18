@@ -3,11 +3,11 @@
 <!-- BEGIN:sessions -->
 | Συνεδρία | Ετικέτα | Μορφή | Μεταγραφή | Λύσεις | Πηγές |
 |---|---|---|---|---|---|
-| [2021-12-proodos](2021-12-proodos.md) | Πρόοδος 17/12/2021 (ηλεκτρονική, 20 ερωτήσεις) | multiple-choice | verbatim | none | 28 |
-| [2022-09-a](2022-09-a.md) | Σεπτέμβριος 2022 — Ομάδα Α (16/09/2022) | multiple-choice | partial | none | 2 |
-| [2022-09-c](2022-09-c.md) | Σεπτέμβριος 2022 — Ομάδα Γ (16/09/2022) | multiple-choice | partial | none | 2 |
-| [2023-12-proodos](2023-12-proodos.md) | Ενδιάμεση εξέταση (εκτιμώμενα Δεκέμβριος 2023) | mixed | verbatim | none | 1 |
-| [2024-02](2024-02.md) | Φεβρουάριος 2024 — Τελική εξέταση | mixed | verbatim | none | 2 |
+| [2021-12-proodos](2021-12-proodos.md) | Πρόοδος 17/12/2021 (ηλεκτρονική, 20 ερωτήσεις) | multiple-choice | verbatim | [ai-unverified](2021-12-proodos.md) | 28 |
+| [2022-09-a](2022-09-a.md) | Σεπτέμβριος 2022 — Ομάδα Α (16/09/2022) | multiple-choice | partial | [ai-unverified](2022-09-a.md) | 2 |
+| [2022-09-c](2022-09-c.md) | Σεπτέμβριος 2022 — Ομάδα Γ (16/09/2022) | multiple-choice | partial | [ai-unverified](2022-09-c.md) | 2 |
+| [2023-12-proodos](2023-12-proodos.md) | Ενδιάμεση εξέταση (εκτιμώμενα Δεκέμβριος 2023) | mixed | verbatim | [ai-unverified](2023-12-proodos.md) | 1 |
+| [2024-02](2024-02.md) | Φεβρουάριος 2024 — Τελική εξέταση | mixed | verbatim | [ai-unverified](2024-02.md) | 2 |
 
 Σύνολο: 5 συνεδρίες.
 
