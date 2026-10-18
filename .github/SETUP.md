@@ -1,6 +1,6 @@
 # Οδηγίες διαχειριστή (owner only)
 
-Αυτό το αποθετήριο παράγεται από το ιδιωτικό master με `tools/build_public_repo.py`. Handle: `kdngiorgos` · repo: `ceid-notes` · site: `https://kdngiorgos.github.io/ceid-notes/` · DOI: `10.5281/zenodo.23434967`.
+Αυτό το αποθετήριο παράγεται από το ιδιωτικό master με `tools/build_public_repo.py`. Handle: `kdngiorgos` · repo: `ceid-notes` · site: `https://ceid.gr/` · DOI: `10.5281/zenodo.23434967`.
 
 ## Ενημέρωση (νέα έκδοση)
 1. Στο master: ξαναχτίσε τους οδηγούς (`tools/build_study_pdf.py <CODE>`), μετά `tools/build_public_repo.py --out <αυτός ο φάκελος>` (κρατά το `.git`, αντικαθιστά τα υπόλοιπα, γράφει τα PDF στο `_work/release-assets/` του master).
