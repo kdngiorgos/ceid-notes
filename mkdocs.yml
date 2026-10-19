@@ -10,6 +10,7 @@ theme:
   name: material
   language: el
   font: false
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
   features:
