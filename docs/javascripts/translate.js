@@ -30,16 +30,20 @@
     var wrap = document.createElement("div");
     wrap.id = "ceid-translate";
     wrap.className = "notranslate";
+    // inline styles: the button must stay a floating corner button even when a browser holds an older stylesheet
+    wrap.style.cssText = "position:fixed;right:12px;bottom:12px;z-index:2147483000;max-width:280px;font:12px/1.3 system-ui,sans-serif;text-align:right";
     var btn = document.createElement("button");
     btn.type = "button";
     btn.textContent = "🌐 Translate / Μετάφραση";
     btn.setAttribute("aria-label", "Translate this page");
+    btn.style.cssText = "cursor:pointer;border:1px solid #888;border-radius:999px;padding:8px 14px;background:#fff;color:#222;box-shadow:0 2px 8px rgba(0,0,0,.25);font:inherit;font-size:13px";
     var box = document.createElement("div");
     box.id = "ceid-translate-box";
     var note = document.createElement("div");
     note.className = "ceid-translate-note";
     note.textContent = "Automatic translation by Google. Exam questions are in Greek; AI translation may contain errors.";
     note.hidden = true;
+    note.style.cssText = "margin-top:4px;padding:4px 8px;border-radius:6px;background:#fff;color:#444;box-shadow:0 2px 8px rgba(0,0,0,.15)";
     btn.addEventListener("click", function () {
       load();
       note.hidden = false;
