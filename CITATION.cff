@@ -6,3 +6,6 @@ authors:
 repository-code: "https://github.com/kdngiorgos/ceid-notes"
 url: "https://ceid.gr/"
 license: CC-BY-NC-SA-4.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23434966"
