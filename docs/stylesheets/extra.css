@@ -136,3 +136,15 @@
 #ceid-translate .goog-te-gadget { font-size: .75rem; }
 body { top: 0 !important; }
 .skiptranslate iframe.skiptranslate { display: none !important; }
+
+/* header call to action: contribute */
+.ceid-contribute { display: inline-flex; align-items: center; align-self: center; margin: 0 .6rem; padding: .35rem .9rem; border-radius: 999px;
+  background: #f97316; color: #fff !important; font-weight: 700; font-size: .72rem; white-space: nowrap; text-decoration: none;
+  animation: ceid-pulse 2.2s infinite; }
+.ceid-contribute::before { content: "\2665\00a0"; }
+.ceid-contribute:hover { background: #ea580c; text-decoration: none !important; }
+@keyframes ceid-pulse { 0% { box-shadow: 0 0 0 0 rgba(249,115,22,.55); } 70% { box-shadow: 0 0 0 10px rgba(249,115,22,0); } 100% { box-shadow: 0 0 0 0 rgba(249,115,22,0); } }
+@media (prefers-reduced-motion: reduce) { .ceid-contribute { animation: none; } }
+@media screen and (max-width: 44.9375em) { .ceid-contribute { margin: 0 .2rem; padding: .3rem .6rem; font-size: .65rem; } }
+/* full pack link in the side menu */
+.md-nav__link[href*="releases/tag/pack"] { font-weight: 700; color: var(--md-typeset-a-color); }

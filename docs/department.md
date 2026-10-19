@@ -7,6 +7,7 @@
 - [Χάρτης προγράμματος σπουδών](guides/curriculum-map.md)
 - [Erasmus, μεταπτυχιακά και θέσεις εργασίας](guides/erasmus-postgrad-jobs.md)
 - [Οδηγός πρώτου έτους (συχνές ερωτήσεις)](guides/first-year-faq.md)
+- [Ερευνητικά εργαστήρια του τμήματος](guides/labs.md)
 - [Διπλωματική εργασία & Πρακτική άσκηση](guides/thesis-and-internship.md)
 
 ## Κοινότητα & Πανεπιστήμιο
