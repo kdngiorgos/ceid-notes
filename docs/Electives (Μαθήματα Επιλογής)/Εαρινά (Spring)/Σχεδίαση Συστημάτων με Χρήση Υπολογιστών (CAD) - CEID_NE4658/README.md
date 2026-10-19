@@ -11,7 +11,7 @@ instructors_2025_26: ["Χ. Βέργος"]
 prerequisites_recommended: ["Λογική Σχεδίαση", "Προγραμματισμός"]
 difficulty: null
 grading_summary: "Εργαστηριακές αναφορές και προφορική εξέταση κατά την παράδοση της εργασίας εξαμήνου"
-sources: [catalog/curriculum_2025-26.yaml, catalog/outlines/CEID_NE4658.md, discord/ (12 περίοδοι, 2021-02 έως 2026-06), "Previous Exams/", other/]
+sources: [../../../catalog/curriculum.md, catalog/outlines/CEID_NE4658.md, discord/ (12 περίοδοι, 2021-02 έως 2026-06), "Previous Exams/", other/]
 last_reviewed: 2026-10-12
 ---
 # Σχεδίαση Συστημάτων με Χρήση Υπολογιστών (CAD)
@@ -26,11 +26,11 @@ last_reviewed: 2026-10-12
 | | |
 |---|---|
 | Κωδικός | CEID_NE4658 |
-| Εξάμηνο / τύπος | Εαρινό, επιλογής [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| ECTS | 5 [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Ώρες / εβδομάδα | 2 θεωρία + 4 εργαστήριο [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Τομέας | ΥΑ [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Διδάσκων 2025-26 | Χ. Βέργος [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
+| Εξάμηνο / τύπος | Εαρινό, επιλογής [Κατάλογος](../../../catalog/curriculum.md) |
+| ECTS | 5 [Κατάλογος](../../../catalog/curriculum.md) |
+| Ώρες / εβδομάδα | 2 θεωρία + 4 εργαστήριο [Κατάλογος](../../../catalog/curriculum.md) |
+| Τομέας | ΥΑ [Κατάλογος](../../../catalog/curriculum.md) |
+| Διδάσκων 2025-26 | Χ. Βέργος [Κατάλογος](../../../catalog/curriculum.md) |
 | Αξιολόγηση (περίγραμμα) | Αναφορές εργαστηριακών ασκήσεων και προφορική εξέταση κατά την παράδοση της εργασίας [Κατάλογος: Περίγραμμα](https://www.ceid.upatras.gr/sites/default/files/ceid_ne4658_gr.pdf) |
 | Συνιστώμενα προαπαιτούμενα | Λογική Σχεδίαση και προγραμματισμός (ανεπίσημη συμβουλή φοιτητών) Discord 2025-09 (διαθέσιμο στο πλήρες πακέτο) |
 

@@ -13,7 +13,7 @@ prerequisites_recommended: ["Καλή γνώση μιας τεχνολογίας
 difficulty: null
 grading_summary: "ΘΕ×0,6 + ΦΡ×0,2 + ΠΡ×0,2· ανοιχτού βιβλίου γραπτή εξέταση 2–3 ωρών"
 exam_sessions: []
-sources: [catalog/curriculum_2025-26.yaml, catalog/outlines/CEID_NSM05.md, "discord/ (6 περίοδοι, 2020-10 έως 2026-01)", "Previous Exams/"]
+sources: [../../../catalog/curriculum.md, catalog/outlines/CEID_NSM05.md, "discord/ (6 περίοδοι, 2020-10 έως 2026-01)", "Previous Exams/"]
 last_reviewed: 2026-10-12
 ---
 # Διαδραστικές Τεχνολογίες
@@ -28,11 +28,11 @@ last_reviewed: 2026-10-12
 | | |
 |---|---|
 | Κωδικός | CEID_NSM05 (επίσημα CEID_ΝΣΜ05) |
-| Εξάμηνο / τύπος | Επιλογής, χειμερινό [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| ECTS | 5 [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Ώρες / εβδομάδα | Δεν βρέθηκαν πληροφορίες. [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Τομέας | Δεν βρέθηκαν πληροφορίες. [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Διδάσκοντες 2025-26 | Ν. Αβούρης, Χ. Σιντόρης (ΕΔΙΠ), Κ. Μουστάκας [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
+| Εξάμηνο / τύπος | Επιλογής, χειμερινό [Κατάλογος](../../../catalog/curriculum.md) |
+| ECTS | 5 [Κατάλογος](../../../catalog/curriculum.md) |
+| Ώρες / εβδομάδα | Δεν βρέθηκαν πληροφορίες. [Κατάλογος](../../../catalog/curriculum.md) |
+| Τομέας | Δεν βρέθηκαν πληροφορίες. [Κατάλογος](../../../catalog/curriculum.md) |
+| Διδάσκοντες 2025-26 | Ν. Αβούρης, Χ. Σιντόρης (ΕΔΙΠ), Κ. Μουστάκας [Κατάλογος](../../../catalog/curriculum.md) |
 | Αξιολόγηση (περίγραμμα) | Τελικός = ΘΕ×0,6 + ΦΡ×0,2 + ΠΡ×0,2· αναφέρεται και ομαδική εργασία [Κατάλογος: Περίγραμμα](https://www.ceid.upatras.gr/sites/default/files/ceid_nsm05_gr.pdf) |
 | Συνιστώμενα προαπαιτούμενα | Καλή γνώση τεχνολογίας ανάπτυξης διαδραστικών συστημάτων (web, ή Java/Python) [Κατάλογος: Περίγραμμα](https://www.ceid.upatras.gr/sites/default/files/ceid_nsm05_gr.pdf) |
 

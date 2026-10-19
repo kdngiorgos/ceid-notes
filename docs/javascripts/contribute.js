@@ -1,11 +1,12 @@
 // Header call to action: a pulsing "Συνεισφορά" button next to the search box (all pages).
 (function () {
+  var s = document.currentScript && document.currentScript.src;      // same site root as this script, whatever host serves it
   function add() {
     var inner = document.querySelector(".md-header__inner");
     if (!inner || inner.querySelector(".ceid-contribute")) return;
     var a = document.createElement("a");
     a.className = "ceid-contribute";
-    a.href = "https://ceid.gr/contribute.html";
+    a.href = s ? s.replace(/javascripts\/contribute\.js.*$/, "contribute.html") : "https://ceid.gr/contribute.html";
     a.innerHTML = "<span>Συνεισφορά</span>";
     a.title = "Ανέβασε θέματα ή διόρθωσε λάθη";
     var search = inner.querySelector(".md-search");

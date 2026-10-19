@@ -52,7 +52,7 @@ markdown_extensions:
       generic: true
   - pymdownx.superfences
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css?v=2
 extra:
   generator: false
   social:
@@ -64,7 +64,7 @@ extra_javascript:
   - javascripts/greek-search.js
   - javascripts/analytics.js
   - javascripts/translate.js?v=3
-  - javascripts/contribute.js?v=1
+  - javascripts/contribute.js?v=2
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 validation:
   nav:
@@ -282,3 +282,4 @@ nav:
   - 🧑 Θέσεις Εργασίας: General & Community (Κοινότητα & Πανεπιστήμιο)/🧑 Θέσεις Εργασίας/README.md
 - Χρήση με AI: ai.md
 - Ευχαριστίες: thanks.md
+- Κατάλογος μαθημάτων 2025-26: catalog/curriculum.md

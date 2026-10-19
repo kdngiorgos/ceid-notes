@@ -13,7 +13,7 @@ prerequisites_recommended: []
 difficulty: null
 grading_summary: "Στην πράξη (2024-2026) εξαμηνιαίο project σε ομάδες με ενδιάμεση και τελική παρουσίαση, χωρίς τελική γραπτή εξέταση· το επίσημο περίγραμμα αναφέρει γραπτή εξέταση"
 sources:
-  - "catalog/curriculum_2025-26.yaml (κατάλογος 2025-26)"
+  - "../../../catalog/curriculum.md (κατάλογος 2025-26)"
   - "catalog/outlines/CEID_NE577.md (επίσημο περίγραμμα)"
   - "Discord 2020-21 έως 2026-27 (12 περίοδοι, 493 μηνύματα)"
 last_reviewed: 2026-10-07
@@ -29,9 +29,9 @@ last_reviewed: 2026-10-07
 
 | | |
 |---|---|
-| Τύπος | Επιλογής, εαρινό [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| ECTS | 5 [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Ώρες/εβδομάδα | 3 θεωρία + 0 φροντιστήριο + 2 εργαστήριο [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
+| Τύπος | Επιλογής, εαρινό [Κατάλογος](../../../catalog/curriculum.md) |
+| ECTS | 5 [Κατάλογος](../../../catalog/curriculum.md) |
+| Ώρες/εβδομάδα | 3 θεωρία + 0 φροντιστήριο + 2 εργαστήριο [Κατάλογος](../../../catalog/curriculum.md) |
 | Τομέας | ΥΑ |
 | Διδάσκων 2025-26 | Χρ. Βερυκούκης |
 | Επίσημο περίγραμμα | [Περίγραμμα](https://www.ceid.upatras.gr/sites/default/files/arhitektonikes_5g_tehnologies_efarmoges_kai_vasikoi_deiktes_apodosis.pdf) |

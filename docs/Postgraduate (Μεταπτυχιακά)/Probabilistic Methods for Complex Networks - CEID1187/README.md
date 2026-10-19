@@ -4,7 +4,7 @@ title: "Probabilistic Methods for Complex Networks"
 category: postgraduate
 code_aliases: [CEID1187, "CΕΙD1187"]
 difficulty: null
-sources: ["Lecture_1.pdf.md", "Lecture_2.pdf.md", "Lecture_3.pdf.md", "Lecture_4.pdf.md", "Lecture_5.pdf.md", "Lecture_6.pdf.md", "Lecture_7.pdf.md", "Lecture_8.pdf.md", "Lecture_9.pdf.md", "catalog/curriculum_2025-26.yaml"]
+sources: ["Lecture_1.pdf.md", "Lecture_2.pdf.md", "Lecture_3.pdf.md", "Lecture_4.pdf.md", "Lecture_5.pdf.md", "Lecture_6.pdf.md", "Lecture_7.pdf.md", "Lecture_8.pdf.md", "Lecture_9.pdf.md", "../../catalog/curriculum.md"]
 last_reviewed: 2026-10-11
 ---
 # Probabilistic Methods for Complex Networks
@@ -28,7 +28,7 @@ last_reviewed: 2026-10-11
 | Αξιολόγηση | Δεν βρέθηκαν πληροφορίες. |
 | Προαπαιτούμενα | Δεν βρέθηκαν πληροφορίες. |
 
-Το μάθημα δεν έχει εγγραφή στον [Κατάλογο 2025-26](../../catalog/curriculum_2025-26.yaml), οπότε τα στοιχεία ECTS, ωρών, τομέα και διδασκόντων λείπουν. Το μάθημα επικαλύπτεται θεματικά με το προπτυχιακό επιλογής [Πιθανοτικές Τεχνικές και Τυχαιοκρατικοί Αλγόριθμοι (CEID_NE5017)](../../Electives%20%28Μαθήματα%20Επιλογής%29/Χειμερινά%20%28Winter-Fall%29/Πιθανοτικές%20Τεχνικές%20και%20Τυχαιοκρατικοί%20Αλγόριθμοι%20-%20CEID_ΝΕ5017/README.md) του ίδιου διδάσκοντα, καθώς και τα δύο καλύπτουν την πιθανοτική μέθοδο, τη γραμμικότητα μέσης τιμής και τη μέθοδο της δεύτερης ροπής.
+Το μάθημα δεν έχει εγγραφή στον [Κατάλογο 2025-26](../../catalog/curriculum.md), οπότε τα στοιχεία ECTS, ωρών, τομέα και διδασκόντων λείπουν. Το μάθημα επικαλύπτεται θεματικά με το προπτυχιακό επιλογής [Πιθανοτικές Τεχνικές και Τυχαιοκρατικοί Αλγόριθμοι (CEID_NE5017)](../../Electives%20%28Μαθήματα%20Επιλογής%29/Χειμερινά%20%28Winter-Fall%29/Πιθανοτικές%20Τεχνικές%20και%20Τυχαιοκρατικοί%20Αλγόριθμοι%20-%20CEID_ΝΕ5017/README.md) του ίδιου διδάσκοντα, καθώς και τα δύο καλύπτουν την πιθανοτική μέθοδο, τη γραμμικότητα μέσης τιμής και τη μέθοδο της δεύτερης ροπής.
 
 ## Τι θα μάθεις
 

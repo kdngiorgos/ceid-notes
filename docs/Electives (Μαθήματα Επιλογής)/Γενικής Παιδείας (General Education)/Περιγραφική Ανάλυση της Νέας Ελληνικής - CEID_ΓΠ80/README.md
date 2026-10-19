@@ -10,7 +10,7 @@ hours: null
 sector: null
 instructors_2025_26: ["Χρ. Βλάχος (Επ. Καθηγητής)"]
 difficulty: null
-sources: [catalog/curriculum_2025-26.yaml, catalog/outlines/CEID_GP80.md, "discord/ (3 περίοδοι, 2023-10 έως 2026-01)"]
+sources: [../../../catalog/curriculum.md, catalog/outlines/CEID_GP80.md, "discord/ (3 περίοδοι, 2023-10 έως 2026-01)"]
 last_reviewed: 2026-10-12
 ---
 # Περιγραφική Ανάλυση της Νέας Ελληνικής
@@ -24,13 +24,13 @@ last_reviewed: 2026-10-12
 
 | | |
 |---|---|
-| Κωδικός | CEID_GP80 (επίσημος: CEID_ΓΠ80) [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Εξάμηνο / τύπος | Χειμερινό, μάθημα γενικής παιδείας [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| ECTS | 3 [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Ώρες / εβδομάδα | Δεν αναφέρονται στον κατάλογο [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Τομέας | Δεν ορίζεται [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Διδάσκων 2025-26 | Χρ. Βλάχος (Επ. Καθηγητής) [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
-| Διδάσκεται από | Τμήμα Φιλολογίας [Κατάλογος](../../../catalog/curriculum_2025-26.yaml) |
+| Κωδικός | CEID_GP80 (επίσημος: CEID_ΓΠ80) [Κατάλογος](../../../catalog/curriculum.md) |
+| Εξάμηνο / τύπος | Χειμερινό, μάθημα γενικής παιδείας [Κατάλογος](../../../catalog/curriculum.md) |
+| ECTS | 3 [Κατάλογος](../../../catalog/curriculum.md) |
+| Ώρες / εβδομάδα | Δεν αναφέρονται στον κατάλογο [Κατάλογος](../../../catalog/curriculum.md) |
+| Τομέας | Δεν ορίζεται [Κατάλογος](../../../catalog/curriculum.md) |
+| Διδάσκων 2025-26 | Χρ. Βλάχος (Επ. Καθηγητής) [Κατάλογος](../../../catalog/curriculum.md) |
+| Διδάσκεται από | Τμήμα Φιλολογίας [Κατάλογος](../../../catalog/curriculum.md) |
 
 ## Τι θα μάθεις
 
