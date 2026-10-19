@@ -126,3 +126,13 @@
 /* Footer */
 .md-footer { border-top: 1px solid var(--ceid-border); }
 .md-footer__link:hover { opacity: 1; color: var(--md-typeset-a-color); }
+
+/* optional page translation (translate.js) */
+#ceid-translate { position: fixed; right: 12px; bottom: 12px; z-index: 50; max-width: 280px; font-size: .7rem; }
+#ceid-translate button { cursor: pointer; border: 1px solid var(--md-default-fg-color--lighter); border-radius: 999px; padding: .45rem .8rem;
+  background: var(--md-default-bg-color); color: var(--md-default-fg-color); box-shadow: 0 2px 8px rgba(0,0,0,.18); font: inherit; font-size: .75rem; }
+#ceid-translate .ceid-translate-note { margin-top: .3rem; padding: .3rem .5rem; border-radius: 6px; background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color--light); box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+#ceid-translate .goog-te-gadget { font-size: .75rem; }
+body { top: 0 !important; }
+.skiptranslate iframe.skiptranslate { display: none !important; }
