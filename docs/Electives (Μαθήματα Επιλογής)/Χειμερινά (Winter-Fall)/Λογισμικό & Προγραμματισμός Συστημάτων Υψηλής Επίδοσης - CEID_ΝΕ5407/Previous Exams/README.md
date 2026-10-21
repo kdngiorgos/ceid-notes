@@ -3,9 +3,9 @@
 <!-- BEGIN:sessions -->
 | Συνεδρία | Ετικέτα | Μορφή | Μεταγραφή | Λύσεις | Πηγές |
 |---|---|---|---|---|---|
-| [2024-02](2024-02.md) | Φεβρουάριος 2024 — Παράλληλη Επεξεργασία | mixed | verbatim | [ai-unverified](2024-02.md) | 1 |
-| [2025-sample](2025-sample.md) | Ενδεικτικά Θέματα (2025-26) | mixed | verbatim | [ai-unverified](2025-sample.md) | 1 |
 | [2026-01](2026-01.md) | Ιανουάριος 2026 | open | verbatim | [ai-unverified](2026-01.md) | 2 |
+| [2025-sample](2025-sample.md) | Ενδεικτικά Θέματα (2025-26) | mixed | verbatim | [ai-unverified](2025-sample.md) | 1 |
+| [2024-02](2024-02.md) | Φεβρουάριος 2024 — Παράλληλη Επεξεργασία | mixed | verbatim | [ai-unverified](2024-02.md) | 1 |
 
 Σύνολο: 3 συνεδρίες.
 

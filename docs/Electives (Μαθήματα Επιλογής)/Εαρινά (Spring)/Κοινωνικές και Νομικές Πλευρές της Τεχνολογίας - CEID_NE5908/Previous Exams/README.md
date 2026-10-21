@@ -3,12 +3,12 @@
 <!-- BEGIN:sessions -->
 | Συνεδρία | Ετικέτα | Μορφή | Μεταγραφή | Λύσεις | Πηγές |
 |---|---|---|---|---|---|
-| [2023-06-essay](2023-06-essay.md) | Ιούνιος 2023 — Θέματα ανάπτυξης | open | partial | [ai-unverified](2023-06-essay.md) | 1 |
-| [2023-06](2023-06.md) | Ιούνιος 2023 — Ερωτήσεις (online quiz) | mixed | partial | [ai-unverified](2023-06.md) | 9 |
-| [2024-06-essay](2024-06-essay.md) | Ιούνιος 2024 — Θέματα ανάπτυξης | open | partial | [ai-unverified](2024-06-essay.md) | 2 |
-| [2024-06](2024-06.md) | Ιούνιος 2024 — Ερωτήσεις (online quiz) | mixed | partial | [ai-unverified](2024-06.md) | 3 |
-| [2025-06](2025-06.md) | Ιούνιος 2025 — Ερωτήσεις και ασκήσεις | mixed | partial | [ai-unverified](2025-06.md) | 5 |
 | [2026-06](2026-06.md) | Ιούνιος 2026 — Τελική εξέταση | mixed | partial | [ai-unverified](2026-06.md) | 4 |
+| [2025-06](2025-06.md) | Ιούνιος 2025 — Ερωτήσεις και ασκήσεις | mixed | partial | [ai-unverified](2025-06.md) | 5 |
+| [2024-06](2024-06.md) | Ιούνιος 2024 — Ερωτήσεις (online quiz) | mixed | partial | [ai-unverified](2024-06.md) | 3 |
+| [2024-06-essay](2024-06-essay.md) | Ιούνιος 2024 — Θέματα ανάπτυξης | open | partial | [ai-unverified](2024-06-essay.md) | 2 |
+| [2023-06](2023-06.md) | Ιούνιος 2023 — Ερωτήσεις (online quiz) | mixed | partial | [ai-unverified](2023-06.md) | 9 |
+| [2023-06-essay](2023-06-essay.md) | Ιούνιος 2023 — Θέματα ανάπτυξης | open | partial | [ai-unverified](2023-06-essay.md) | 1 |
 
 Σύνολο: 6 συνεδρίες.
 

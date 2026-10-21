@@ -3,18 +3,18 @@
 <!-- BEGIN:sessions -->
 | Συνεδρία | Ετικέτα | Μορφή | Μεταγραφή | Λύσεις | Πηγές |
 |---|---|---|---|---|---|
-| [2018-09](2018-09.md) | Σεπτέμβριος 2018 | open | verbatim | [ai-unverified](2018-09.md) | 1 |
-| [2019-09](2019-09.md) | Σεπτέμβριος 2019 | open | partial | [ai-unverified](2019-09.md) | 1 |
-| [2022-06](2022-06.md) | Ιούνιος 2022 | open | verbatim | [ai-unverified](2022-06.md) | 1 |
-| [2023-01](2023-01.md) | Ιανουάριος 2023 | open | verbatim | [ai-unverified](2023-01.md) | 1 |
-| [2023-07](2023-07.md) | Ιούλιος 2023 | open | verbatim | [ai-unverified](2023-07.md) | 1 |
-| [2023-08](2023-08.md) | Αύγουστος 2023 | open | verbatim | [ai-unverified](2023-08.md) | 1 |
-| [2024-06](2024-06.md) | Ιούνιος 2024 | open | verbatim | [ai-unverified](2024-06.md) | 1 |
-| [2024-09](2024-09.md) | Σεπτέμβριος 2024 | open | verbatim | [ai-unverified](2024-09.md) | 1 |
-| [2025-01](2025-01.md) | Ιανουάριος 2025 | open | verbatim | [ai-unverified](2025-01.md) | 1 |
-| [2025-07](2025-07.md) | Ιούλιος 2025 | open | verbatim | [ai-unverified](2025-07.md) | 1 |
-| [2026-01](2026-01.md) | Ιανουάριος 2026 | open | verbatim | [ai-unverified](2026-01.md) | 1 |
 | [2026-06](2026-06.md) | Ιούνιος 2026 | open | verbatim | [ai-unverified](2026-06.md) | 1 |
+| [2026-01](2026-01.md) | Ιανουάριος 2026 | open | verbatim | [ai-unverified](2026-01.md) | 1 |
+| [2025-07](2025-07.md) | Ιούλιος 2025 | open | verbatim | [ai-unverified](2025-07.md) | 1 |
+| [2025-01](2025-01.md) | Ιανουάριος 2025 | open | verbatim | [ai-unverified](2025-01.md) | 1 |
+| [2024-09](2024-09.md) | Σεπτέμβριος 2024 | open | verbatim | [ai-unverified](2024-09.md) | 1 |
+| [2024-06](2024-06.md) | Ιούνιος 2024 | open | verbatim | [ai-unverified](2024-06.md) | 1 |
+| [2023-08](2023-08.md) | Αύγουστος 2023 | open | verbatim | [ai-unverified](2023-08.md) | 1 |
+| [2023-07](2023-07.md) | Ιούλιος 2023 | open | verbatim | [ai-unverified](2023-07.md) | 1 |
+| [2023-01](2023-01.md) | Ιανουάριος 2023 | open | verbatim | [ai-unverified](2023-01.md) | 1 |
+| [2022-06](2022-06.md) | Ιούνιος 2022 | open | verbatim | [ai-unverified](2022-06.md) | 1 |
+| [2019-09](2019-09.md) | Σεπτέμβριος 2019 | open | partial | [ai-unverified](2019-09.md) | 1 |
+| [2018-09](2018-09.md) | Σεπτέμβριος 2018 | open | verbatim | [ai-unverified](2018-09.md) | 1 |
 
 Σύνολο: 12 συνεδρίες.
 
