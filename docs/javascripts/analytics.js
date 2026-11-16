@@ -1,5 +1,6 @@
 // Anonymous, cookie-free usage counts (GoatCounter). Page views + one event per file download (pdf/zip/release asset).
 (function () {
+  if (location.hostname !== "ceid.gr") return;
   var s = document.createElement("script");
   s.async = true;
   s.src = "https://gc.zgo.at/count.js";

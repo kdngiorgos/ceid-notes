@@ -1,0 +1,137 @@
+<!doctype html>
+{% macro icon(name, size=21) -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  {% if name == 'book' %}<path d="M12 7c-2.5-3-6-3.5-9-2v13c3-1.5 6.5-1 9 2 2.5-3 6-3.5 9-2V5c-3-1.5-6.5-1-9 2Zm0 0v13"/>
+  {% elif name == 'exam' %}<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Zm0 0v6h6M8 13h8m-8 4h6"/>
+  {% elif name == 'spark' %}<path d="m12 3 2.2 6.8L21 12l-6.8 2.2L12 21l-2.2-6.8L3 12l6.8-2.2ZM20 2v4m-2-2h4"/>
+  {% elif name == 'search' %}<circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/>
+  {% elif name == 'arrow' %}<path d="M5 12h14m-6-6 6 6-6 6"/>
+  {% elif name == 'diagonal' %}<path d="M6 18 18 6M8 6h10v10"/>
+  {% elif name == 'layers' %}<path d="m12 2 10 5-10 5L2 7Zm10 10-10 5-10-5m20 5-10 5-10-5"/>
+  {% elif name == 'bookmark' %}<path d="M6 5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16l-6-4-6 4Z"/>
+  {% elif name == 'moon' %}<path d="M20.9 13.35a9 9 0 1 1-10.25-10.25A7 7 0 0 0 20.9 13.35Z"/>
+  {% elif name == 'close' %}<path d="m6 6 12 12M18 6 6 18"/>
+  {% elif name == 'plus' %}<path d="M12 5v14M5 12h14"/>{% endif %}
+</svg>
+{%- endmacro %}
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ config.site_description }}">
+  <meta property="og:title" content="CEID Notes">
+  <meta property="og:description" content="{{ config.site_description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ config.site_url }}assets/og.png">
+  <link rel="canonical" href="{{ page.canonical_url }}">
+  <link rel="icon" href="{{ 'assets/ceid-mark.svg' | url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ 'stylesheets/study.css' | url }}">
+  <script src="{{ 'assets/study-index.js' | url }}" defer></script>
+  <script src="{{ 'javascripts/study.js' | url }}" defer></script>
+  <title>CEID Notes · Μαθήματα και θέματα εξετάσεων</title>
+</head>
+<body>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="{{ 'index.html' | url }}"><span class="brand-mark">{{ icon('book', 22) }}</span><span>CEID <strong>Notes</strong></span></a>
+      <nav class="primary-nav" aria-label="Κύρια πλοήγηση">
+        <a href="#library" data-view="courses">Μαθήματα</a>
+        <a href="?view=exams#library" data-view="exams">Θέματα</a>
+        <a href="{{ 'ai.html' | url }}" data-open-ai>{{ icon('spark', 16) }} Εργαστήριο AI</a>
+        <a href="{{ 'study-guides.html' | url }}">Οδηγοί PDF</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="icon-button" id="theme" type="button" aria-label="Σκούρο θέμα" aria-pressed="false">{{ icon('moon', 19) }}</button>
+        <a class="contribute" href="{{ 'contribute.html' | url }}">{{ icon('plus', 17) }} <span>Συνεισφορά</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell" id="main" data-source-base="{{ config.site_url }}">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-art" src="{{ 'assets/study-hero.webp' | url }}" alt="" fetchpriority="high" width="1440" height="720">
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> ΦΟΙΤΗΤΙΚΗ ΚΟΙΝΟΤΗΤΑ ΤΜΗΥΠ</p>
+        <h1 id="hero-title">Η μελέτη σου,<br><em>σε ένα μέρος.</em></h1>
+        <p class="hero-description">Μαθήματα, παλιά θέματα και οδηγοί μελέτης από τη φοιτητική κοινότητα του Πανεπιστημίου Πατρών.</p>
+        <form id="hero-search" class="hero-search" action="#library">
+          {{ icon('search', 22) }}
+          <label class="sr-only" for="hero-query">Μάθημα ή κωδικός</label>
+          <input id="hero-query" name="q" type="search" placeholder="Μάθημα ή κωδικός..." autocomplete="off">
+          <button type="submit">Αναζήτηση {{ icon('arrow', 17) }}</button>
+        </form>
+        <div class="quick-links"><span>Δοκίμασε</span>
+          <a href="?q=CEID_22Y102#library" data-query="CEID_22Y102">Γραμμική Άλγεβρα</a>
+          <a href="?q=CEID_23Y210#library" data-query="CEID_23Y210">Δομές Δεδομένων</a>
+          <a href="?q=CEID_24Y334#library" data-query="CEID_24Y334">Βάσεις Δεδομένων</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="overview" aria-label="Περιεχόμενο βιβλιοθήκης">
+      <a href="#library" data-view="courses"><span class="stat-icon lavender">{{ icon('book') }}</span><span><strong data-count="courses">—</strong><small>Μαθήματα</small></span>{{ icon('diagonal', 17) }}</a>
+      <a href="?view=exams#library" data-view="exams"><span class="stat-icon mint">{{ icon('exam') }}</span><span><strong data-count="exams">—</strong><small>Συνεδρίες εξετάσεων</small></span>{{ icon('diagonal', 17) }}</a>
+      <a href="{{ 'study-guides.html' | url }}"><span class="stat-icon sand">{{ icon('layers') }}</span><span><strong data-count="pdfs">—</strong><small>Οδηγοί μελέτης PDF</small></span>{{ icon('diagonal', 17) }}</a>
+    </div>
+
+    <div class="workspace">
+      <section class="library" id="library" aria-labelledby="library-title">
+        <div class="section-heading"><h2 id="library-title" tabindex="-1">Βιβλιοθήκη μαθημάτων</h2><p>Βρες οδηγούς και εξεταστικές ανά μάθημα.</p></div>
+        <div class="view-switch" role="group" aria-label="Προβολή βιβλιοθήκης">
+          <button type="button" data-view="courses" aria-pressed="true">{{ icon('book', 17) }} Μαθήματα</button>
+          <button type="button" data-view="exams" aria-pressed="false">{{ icon('exam', 17) }} Θέματα</button>
+          <button type="button" data-view="saved" aria-pressed="false">{{ icon('bookmark', 17) }} Αποθηκευμένα</button>
+        </div>
+        <div class="filters">
+          <label for="library-query">Αναζήτηση<input id="library-query" type="search" placeholder="Τίτλος ή κωδικός" autocomplete="off"></label>
+          <label id="category-filter" for="category">Κατηγορία<select id="category"><option value="">Όλα τα μαθήματα</option><optgroup label="Υποχρεωτικά"><option value="1">1ο εξάμηνο</option><option value="2">2ο εξάμηνο</option><option value="3">3ο εξάμηνο</option><option value="4">4ο εξάμηνο</option><option value="5">5ο εξάμηνο</option><option value="6">6ο εξάμηνο</option><option value="7">7ο εξάμηνο</option></optgroup><option value="electives">Επιλογής</option><option value="old">Παλαιό ΠΣ</option><option value="postgraduate">Μεταπτυχιακά</option></select></label>
+          <label id="year-filter" for="year" hidden>Έτος<select id="year"><option value="">Όλα τα έτη</option></select></label>
+          <label id="status-filter" for="status" hidden>Λύσεις<select id="status"><option value="">Όλες οι λύσεις</option><option value="official">Επίσημες</option><option value="verified">Επαληθευμένες</option><option value="community">Κοινότητας</option><option value="ai-unverified">AI · μη επαληθευμένες</option><option value="none">Χωρίς λύσεις</option></select></label>
+        </div>
+        <div id="library-summary" class="summary" role="status">Φόρτωση βιβλιοθήκης…</div>
+        <div id="results" class="results"></div>
+        <button class="load-more secondary-button" id="load-more" type="button" hidden>Περισσότερα αποτελέσματα</button>
+        <noscript><p><a href="{{ 'semester-1.html' | url }}">1ο εξάμηνο</a> · <a href="{{ 'electives.html' | url }}">Μαθήματα επιλογής</a> · <a href="{{ 'old-curriculum.html' | url }}">Παλαιό πρόγραμμα</a> · <a href="{{ 'ai.html' | url }}">Χρήση με AI</a></p></noscript>
+      </section>
+      <aside class="study-panel" aria-labelledby="panel-title">
+        <span class="stat-icon lavender">{{ icon('spark', 24) }}</span>
+        <h2 id="panel-title">Μελέτη με AI</h2>
+        <p>Βρες αποσπάσματα από τον οδηγό του μαθήματος και ετοίμασε μια ερώτηση με παραπομπές.</p>
+        <button class="example" type="button" data-example>«Τι είναι οι ιδιοτιμές;» {{ icon('diagonal', 15) }}</button>
+        <a class="primary-button" href="{{ 'ai.html' | url }}" data-open-ai>Άνοιξε το εργαστήριο {{ icon('arrow', 18) }}</a>
+        <a class="panel-link" href="{{ 'ai.html' | url }}">Λήψη αρχείων για AI {{ icon('diagonal', 15) }}</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div><a class="brand" href="{{ 'index.html' | url }}"><span class="brand-mark">{{ icon('book', 22) }}</span><span>CEID <strong>Notes</strong></span></a><p>Ανεπίσημο φοιτητικό έργο του Giorgos Kandilas και της κοινότητας.</p></div>
+      <nav aria-label="Σχετικά με το έργο">
+        <a href="{{ 'department.html' | url }}">Οδηγοί τμήματος</a><a href="{{ 'thanks.html' | url }}">Ευχαριστίες</a><a href="{{ config.repo_url }}">GitHub {{ icon('diagonal', 14) }}</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="ai-dialog" aria-labelledby="ai-title">
+    <div class="dialog-heading"><span class="stat-icon lavender">{{ icon('spark', 23) }}</span><h2 id="ai-title">Εργαστήριο AI</h2><form method="dialog"><button class="icon-button" aria-label="Κλείσιμο">{{ icon('close', 22) }}</button></form></div>
+    <p class="dialog-description">Βρες τεκμήρια στον οδηγό του μαθήματος και αντέγραψε την ερώτηση με τις πηγές της στο εργαλείο AI που χρησιμοποιείς.</p>
+    <form id="ai-form" class="ai-form">
+      <label for="ai-course">Μάθημα<select id="ai-course" required><option value="">Επίλεξε μάθημα</option></select></label>
+      <label for="ai-query">Ερώτηση<textarea id="ai-query" required maxlength="400" rows="2" placeholder="π.χ. Τι είναι οι ιδιοτιμές;"></textarea></label>
+      <button class="primary-button" type="submit">{{ icon('search', 18) }} Εύρεση πηγών</button>
+    </form>
+    <div id="ai-status" class="summary" role="status"></div>
+    <ol id="ai-sources" class="source-list"></ol>
+    <div id="ai-export" hidden>
+      <label for="ai-prompt">Ερώτηση και πηγές για το εργαλείο AI<textarea id="ai-prompt" readonly rows="5"></textarea></label>
+      <button type="button" class="secondary-button" id="ai-copy">Αντιγραφή ερώτησης</button>
+    </div>
+  </dialog>
+  <template id="icon-book">{{ icon('book', 21) }}</template>
+  <template id="icon-exam">{{ icon('exam', 20) }}</template>
+  <template id="icon-bookmark">{{ icon('bookmark', 19) }}</template>
+  <template id="icon-arrow">{{ icon('arrow', 17) }}</template>
+</body>
+</html>

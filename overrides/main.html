@@ -12,3 +12,13 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ config.site_url }}assets/og.png">
 {% endblock %}
+
+{% block content %}
+  {% if page.meta and page.meta.code and page.meta.category and page.file.src_uri.endswith('/README.md') %}
+    <div class="ceid-course-actions" aria-label="Εργαλεία μαθήματος">
+      <a href="{{ 'index.html' | url }}#library">Βιβλιοθήκη μαθημάτων</a>
+      <a href="{{ 'index.html' | url }}?study={{ page.file.src_uri | urlencode }}">Μελέτη με AI ↗</a>
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

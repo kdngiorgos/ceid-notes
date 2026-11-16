@@ -39,6 +39,8 @@ theme:
 plugins:
   - search:
       lang: [el, en]
+hooks:
+  - tools/study_index.py
 markdown_extensions:
   - admonition
   - attr_list
@@ -52,7 +54,7 @@ markdown_extensions:
       generic: true
   - pymdownx.superfences
 extra_css:
-  - stylesheets/extra.css?v=2
+  - stylesheets/extra.css?v=3
 extra:
   generator: false
   social:
