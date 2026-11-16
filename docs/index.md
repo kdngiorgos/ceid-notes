@@ -1,3 +1,7 @@
+---
+template: study.html
+---
+
 # CEID Notes
 
 !!! tip "Νέο: οδηγοί μελέτης σε PDF"

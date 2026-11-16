@@ -8,11 +8,11 @@
 }
 
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #2563eb;
-  --md-primary-fg-color--light: #3b82f6;
-  --md-primary-fg-color--dark: #1d4ed8;
-  --md-accent-fg-color: #1d4ed8;
-  --md-typeset-a-color: #2563eb;
+  --md-primary-fg-color: #6036c2;
+  --md-primary-fg-color--light: #825ad6;
+  --md-primary-fg-color--dark: #4c239e;
+  --md-accent-fg-color: #4c239e;
+  --md-typeset-a-color: #6036c2;
   --ceid-border: #e5e7eb;
   --ceid-surface: #f8fafc;
   --md-footer-bg-color: #f8fafc;
@@ -23,11 +23,11 @@
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #60a5fa;
-  --md-primary-fg-color--light: #93c5fd;
-  --md-primary-fg-color--dark: #3b82f6;
-  --md-accent-fg-color: #93c5fd;
-  --md-typeset-a-color: #60a5fa;
+  --md-primary-fg-color: #c8aaff;
+  --md-primary-fg-color--light: #dec9ff;
+  --md-primary-fg-color--dark: #ab86f2;
+  --md-accent-fg-color: #dec9ff;
+  --md-typeset-a-color: #c8aaff;
   --ceid-border: #2b2f3a;
   --ceid-surface: #1b1e27;
   --md-footer-bg-color: #161821;
@@ -64,6 +64,19 @@
 .md-typeset h1 { font-weight: 700; color: var(--md-default-fg-color); letter-spacing: -0.02em; }
 .md-typeset h2 { font-weight: 650; letter-spacing: -0.01em; }
 .md-typeset h3 { font-weight: 600; }
+
+.ceid-course-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem .8rem;
+  margin-bottom: .7rem;
+  padding: .45rem .7rem;
+  border: 1px solid var(--ceid-border);
+  border-radius: var(--ceid-radius);
+  background: var(--ceid-surface);
+  font-size: .72rem;
+  font-weight: 650;
+}
 
 /* Links: underline on hover only */
 .md-typeset a:hover { text-decoration: underline; text-underline-offset: 0.15em; }
